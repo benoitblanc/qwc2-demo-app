@@ -116,7 +116,8 @@
                   {"key": "Redlining", "icon": "draw"},
                   {"key": "Editing", "icon": "editing", "themeWhitelist": ["Test"]},
                   {"key": "DxfExport", "icon": "dxfexport"},
-                  {"key": "RasterExport", "icon": "rasterexport"}
+                  {"key": "RasterExport", "icon": "rasterexport"},
+                  {"key": "Login", "icon": "login"}
                 ]},
                 {"key": "Print", "icon": "print"},
                 {"key": "Help", "icon": "info"}
@@ -249,6 +250,9 @@
           "cfg": {
             "removeMode": "onclickonmarker"
           }
+        },
+        {
+          "name": "Authentication"
         }
       ],
       "desktop": [
@@ -333,7 +337,8 @@
                 ]},
                 {"key": "Print", "icon": "print"},
                 {"key": "Help", "icon": "info"},
-                {"key": "ExternalLink", "icon": "link", "url": "http://example.com?extent=$e$"}
+                {"key": "ExternalLink", "icon": "link", "url": "http://example.com?extent=$e$"},
+                {"key": "Login", "icon": "login"}
               ],
               "toolbarItems": [
                 {"key": "Measure", "mode": "LineString", "icon": "measure_line"},
@@ -477,6 +482,9 @@
           "cfg": {
             "removeMode": "onclickonmarker"
           }
+      },
+      {
+        "name": "Authentication"
       },
       {
           "name": "API"
