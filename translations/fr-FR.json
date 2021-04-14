@@ -5,32 +5,32 @@
       "items": {
         "ExternalLink": "",
         "DxfExport": "Export DXF",
+        "Editing": "Editer",
         "Help": "Aide",
+        "IdentifyRegion": "Interroger la région",
         "LayerTree": "Couches",
+        "Login": "Connexion",
+        "Logout": "Déconnexion",
         "Measure": "Mesurer",
         "Print": "Imprimer",
         "RasterExport": "Export image",
-        "Share": "Partager",
-        "ThemeSwitcher": "Cartes",
-        "Tools": "Outils",
-        "IdentifyRegion": "Interroger la région",
         "Redlining": "Dessiner",
-        "Editing": "Editer",
-        "Login": "Connexion",
-        "Logout": "Déconnexion"
+        "Share": "Partager",
+        "ThemeSwitcher": "Thèmes",
+        "Tools": "Outils"
       },
       "menulabel": "Cartes et outils"
     },
     "search": {
       "coordinates": "Coordonnées",
+      "all": "Tous",
+      "enablelayer": "Activer la couche",
+      "existinglayer": "La couche existe déjà dans la carte",
+      "invisiblelayer": "Le résultat est sur une couche désactivé",
       "more": "Plus...",
       "search": "Chercher",
       "searchall": "Rechercher un lieu ou ajouter une carte...",
-      "all": "Tous",
-      "themes": "Cartes",
-      "invisiblelayer": "Le résultat est sur un calque désactivé",
-      "enablelayer": "Activer le calque",
-      "existinglayer": ""
+      "themes": "Cartes"
     },
     "bgswitcher": {
       "nobg": "Pas de fond"
@@ -43,10 +43,10 @@
     },
     "copybtn": {
       "click_to_copy": "Cliquer pour copier",
-      "copied": "Copiée"
+      "copied": "Copié"
     },
     "dxfexport": {
-      "selectinfo": "Paramétrage de l'export DXF",
+      "selectinfo": "Faites glisser un rectangle autour de la région à exporter..",
       "symbologyscale": "Echelle"
     },
     "editing": {
@@ -56,12 +56,12 @@
       "discard": "Rejeter",
       "draw": "Dessiner",
       "feature": "Objet",
-      "fields": "Champs",
-      "layer": "Calque",
-      "noeditablelayers": "Il n'y a pas de calque éditable pour ce thème",
+      "maximize": "Maximiser",
+      "minimize": "Minimiser",
+      "noeditablelayers": "Il n'y a pas de couche éditable pour ce thème",
       "pick": "Choisir",
       "reallydelete": "Supprimer",
-      "select": "Choisir"
+      "select": "Sélectionner"
     },
     "fileselector": {
       "placeholder": "Choisir un fichier..."
@@ -73,59 +73,64 @@
       "loading": "Calcul du profil de hauteur..."
     },
     "identify": {
-      "querying": "Identification en cours...",
-      "noresults": "Pas de résultats pour la position sélectionnée",
       "export": "Exporter",
+      "exportformat": "Format d'export:",
       "featureReport": "Données de l'objet",
+      "link": "Lien",
       "noattributes": "Pas d'attribut",
-      "title": "Informations sur l'objet",
-      "link": "Lien"
+      "noresults": "Pas de résultats pour la position sélectionnée",
+      "querying": "Identification en cours...",
+      "title": "Informations sur l'objet"
     },
     "identifyregion": {
       "info": "Dessiner un polygone pour identifier les objets"
     },
     "importlayer": {
-      "addlayer": "Ajouter un calque",
+      "addlayer": "Ajouter une couche",
       "connect": "Connecter",
       "filter": "Filtrer",
+      "loading": "",
       "localfile": "Fichier local",
       "nofeatures": "Aucune entité ne peut être importée.",
       "noresults": "Pas de résultat ou URL non valide",
-      "loading": "",
       "url": "",
-      "urlplaceholder": "Entrer l'URL d'un WMS, WFS..."
+      "urlplaceholder": "Entrer l'URL d'un WMS, WMTS, WFS..."
+    },
+    "infotool": {
+      "clickhelpPoint": "Cliquez sur un emplacement pour l'identifier sur la carte..."
     },
     "layerinfo": {
-      "title": "Informations dur la couche",
       "abstract": "Récapitulation",
       "attribution": "Attribution",
-      "keywords": "Mots-clés",
       "dataUrl": "URL des données",
-      "metadataUrl": "URL des métadonnées",
+      "keywords": "Mots-clés",
       "legend": "Légende",
       "maxscale": "",
-      "minscale": ""
+      "metadataUrl": "URL des métadonnées",
+      "minscale": "",
+      "title": "Informations sur la couche"
     },
     "layertree": {
       "compare": "Comparer",
-      "importlayer": "Importer un calque",
+      "deletealllayers": "Supprimer toutes les couches",
+      "importlayer": "Importer une couche",
       "maptip": "Afficher les infobulles",
       "printlegend": "Afficher la légende",
-      "deletealllayers": "",
-      "visiblefilter": "",
-      "separator": "",
-      "separatortooltip": "",
-      "zoomtolayer": ""
+      "separator": "Séparateur",
+      "separatortooltip": "Ajouter séparateur",
+      "transparency": "Transparence",
+      "visiblefilter": "Filtrer couches invisibles",
+      "zoomtolayer": "Zoomer sur la couche"
     },
     "locate": {
-      "metersUnit": "mètre",
-      "feetUnit": "pied",
-      "popup": "Dans un préimètre de {distance} {unit} de ce point",
+      "feetUnit": "pieds",
+      "metersUnit": "mètres",
+      "popup": "Vous êtes dans un périmètre de {distance} {unit} de ce point",
       "statustooltip": {
         "DISABLED": "Position: désactivée",
-        "LOCATING": "Position: en cours...",
         "ENABLED": "Position: activée",
         "FOLLOWING": "Position: bouger avec le GPS",
+        "LOCATING": "Position: en cours...",
         "PERMISSION_DENIED": "Position: accès refusé"
       }
     },
@@ -143,17 +148,17 @@
       "pointLabel": "Position"
     },
     "print": {
-      "layout": "Format",
       "grid": "Grille",
+      "layout": "Format",
       "maximize": "Maximiser",
       "minimize": "Minimiser",
       "nolayouts": "Il n'y a pas de mise en page disponible pour le thème choisi.",
       "notheme": "Pas de thème sélectionné",
+      "output": "Impression",
       "resolution": "Résolution",
       "rotation": "Rotation",
       "scale": "Echelle",
       "submit": "Créer le PDF",
-      "output": "Impression",
       "wait": "Veuillez patienter..."
     },
     "rasterexport": {
@@ -162,19 +167,19 @@
       "selectinfo": "Dessiner un rectangle pour définir la zone à exporter"
     },
     "redlining": {
-      "add": "Ajouter",
       "border": "Bordure",
-      "buffer": "",
-      "bufferlayername": "",
-      "bufferdistance": "Distance",
-      "bufferlayer": "Calque cible",
+      "buffer": "Tampon",
       "buffercompute": "Calculer",
-      "bufferselectfeature": "",
+      "bufferdistance": "Distance",
+      "bufferlayer": "Couche cible",
+      "bufferlayername": "Sortie",
+      "bufferselectfeature": "Choisissez une entité pour le tampon...",
+      "circle": "Cercle",
       "delete": "Effacer",
       "draw": "Dessiner",
       "edit": "Editer",
       "fill": "Remplissage",
-      "freehand": "Dessin à main levée",
+      "freehand": "Dessin à main libre",
       "label": "Texte",
       "layer": "Couche",
       "line": "Ligne",
@@ -186,43 +191,66 @@
       "text": "Texte",
       "width": "Largeur"
     },
+    "scratchdrawing": {
+      "finish": "Terminer"
+    },
     "searchbox": {
-      "coordinates": "",
-      "filter": "",
-      "layers": "",
-      "more": "",
-      "morelayers": "",
-      "nodescription": "",
-      "placeholder": "",
-      "places": "",
-      "recent": ""
+      "filter": "Affiner la recherche",
+      "layers": "Cartes",
+      "more": "Plus de résultats",
+      "morelayers": "Plus de résultats disponibles",
+      "nodescription": "Pas de description disponible",
+      "placeholder": "Rechercher un lieu ou ajouter une carte...",
+      "places": "Lieux",
+      "recent": "Recherches récentes"
+    },
+    "serviceinfo": {
+      "abstract": "Résumé",
+      "contactEmail": "Courrier électronique",
+      "contactOrganization": "Organisation",
+      "contactPerson": "Personne de contact",
+      "contactPhone": "Téléphone",
+      "contactPosition": "Poste",
+      "keywords": "mots-clés",
+      "onlineResource": "Ressource en ligne",
+      "title": "Information sur le thème"
     },
     "share": {
+      "QRCodeLinkTitle": "QR code",
       "directLinkTitle": "Via un lien direct",
       "generatingpermalink": "Un lien permanent est généré...",
-      "QRCodeLinkTitle": "QR code",
       "socialIntro": "Via votre réseau social favori"
     },
-    "tooltip": {
-      "home": "Afficher toute la carte",
-      "zoomin": "Zoomer",
-      "zoomout": "Dézoomer",
-      "background": "Changer de fond"
+    "themelayerslist": {
+      "addlayer": "Ajouter la couche",
+      "addlayerstotheme": "Ajouter des couches à la carte",
+      "addselectedlayers": "Ajouter les couches sélectionnées"
     },
     "themeswitcher": {
-      "filter": "Filtre",
+      "addlayerstotheme": "Ajouter des couches à la carte",
       "addtotheme": "Ajouter au thème actuel",
+      "filter": "Filtre...",
       "match": {
-        "title": "",
-        "keywords": "",
-        "abstract": ""
+        "abstract": "Résumé",
+        "keywords": "Mots-clés",
+        "title": "Titre"
       },
-      "openintab": ""
+      "openintab": "Ouvrir dans l'onglet",
+      "restrictedthemeinfo": "Vous n'êtes pas autorisé à voir le thème ou vous n'êtes pas connecté"
+    },
+    "tooltip": {
+      "background": "Changer de fond",
+      "home": "Afficher toute la carte",
+      "zoomin": "Zoomer",
+      "zoomout": "Dézoomer"
+    },
+    "vectorlayerpicker": {
+      "prompt": "Entrez le nom de la couche"
     },
     "window": {
-      "close": "",
-      "dock": "",
-      "undock": ""
+      "close": "Fermer",
+      "dock": "attacher",
+      "undock": "détacher"
     }
   }
 }

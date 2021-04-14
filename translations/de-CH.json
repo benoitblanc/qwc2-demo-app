@@ -3,34 +3,34 @@
   "messages": {
     "appmenu": {
       "items": {
-        "ExternalLink": "Externer Link",
+        "ExternalLink": "",
         "DxfExport": "DXF-Export",
+        "Editing": "Editieren",
         "Help": "Hilfe",
+        "IdentifyRegion": "Region abfragen",
         "LayerTree": "Ebenen und Legende",
+        "Login": "Anmelden",
+        "Logout": "Abmelden",
         "Measure": "Messen",
         "Print": "Drucken",
         "RasterExport": "Raster-Export",
+        "Redlining": "Zeichnen",
         "Share": "Teilen",
         "ThemeSwitcher": "Themen",
-        "Tools": "Werkzeuge",
-        "IdentifyRegion": "Region abfragen",
-        "Redlining": "Zeichnen",
-        "Editing": "Editieren",
-        "Login": "Anmelden",
-        "Logout": "Abmelden"
+        "Tools": "Werkzeuge"
       },
       "menulabel": "Karte & Werkzeuge"
     },
     "search": {
-      "coordinates": "Koordinaten",
+      "coordinates": "",
+      "all": "Alle",
+      "enablelayer": "Ebene einschalten",
+      "existinglayer": "Die Ebene existiert bereits in der Karte",
+      "invisiblelayer": "Das Resultat liegt auf einer Ebene, die ausgeschaltet ist.",
       "more": "Mehr...",
       "search": "Suchen",
       "searchall": "Ort suchen oder Karte hinzufügen...",
-      "all": "Alle",
-      "themes": "Themen",
-      "invisiblelayer": "Das Resultat liegt auf einer Ebene, die ausgeschaltet ist.",
-      "enablelayer": "Ebene einschalten",
-      "existinglayer": "Die Ebene existiert bereits in der Karte"
+      "themes": "Themen"
     },
     "bgswitcher": {
       "nobg": "Kein Hintergrund"
@@ -39,7 +39,7 @@
       "mousepos_label": "Koordinaten",
       "scale_label": "Massstab",
       "terms_label": "Nutzungsbedingungen",
-      "viewertitle_label": "QWC2 Demo"
+      "viewertitle_label": ""
     },
     "copybtn": {
       "click_to_copy": "Kopieren in Zwischenablage",
@@ -56,8 +56,8 @@
       "discard": "Abbrechen",
       "draw": "Zeichnen",
       "feature": "Objekt",
-      "fields": "Felder",
-      "layer": "Ebene",
+      "maximize": "Maximieren",
+      "minimize": "Minimieren",
       "noeditablelayers": "Keine editierbare Ebenen.",
       "pick": "Auswählen",
       "reallydelete": "Löschen",
@@ -73,13 +73,14 @@
       "loading": "Höhenprofil wird berechnet..."
     },
     "identify": {
-      "querying": "Objekte werden abgefragt...",
-      "noresults": "Keine Resultate an der ausgewählten Position",
       "export": "Exportieren",
+      "exportformat": "Exportformat",
       "featureReport": "Objektblatt",
+      "link": "Link",
       "noattributes": "Keine Attribute",
-      "title": "Objektinformationen",
-      "link": "Link"
+      "noresults": "Keine Resultate an der ausgewählten Position",
+      "querying": "Objekte werden abgefragt...",
+      "title": "Objektinformationen"
     },
     "identifyregion": {
       "info": "Polygon um die zu identifizierende Objekte zeichnen"
@@ -88,44 +89,48 @@
       "addlayer": "Ebene hinzufügen",
       "connect": "Verbinden",
       "filter": "Filter...",
+      "loading": "Laden...",
       "localfile": "Lokale Datei",
       "nofeatures": "Keine Objekte konnten importiert werden",
       "noresults": "Keine Resultate oder ungültige URL",
-      "loading": "Laden...",
       "url": "URL",
-      "urlplaceholder": "WMS, WFS, KML oder GeoJSON URL eingeben..."
+      "urlplaceholder": "WMS, WMTS oder WFS URL eingeben..."
+    },
+    "infotool": {
+      "clickhelpPoint": "Zu identifizierende Position in der Karte auswählen..."
     },
     "layerinfo": {
-      "title": "Ebeneninformationen",
       "abstract": "Zusammenfassung",
       "attribution": "Attribution",
-      "keywords": "Schlüsselwörter",
       "dataUrl": "Daten-URL",
-      "metadataUrl": "Metadaten-URL",
+      "keywords": "Schlüsselwörter",
       "legend": "Legende",
       "maxscale": "Max. Darstellungsmassstab",
-      "minscale": "Min. Darstellungsmassstab"
+      "metadataUrl": "Metadaten-URL",
+      "minscale": "Min. Darstellungsmassstab",
+      "title": "Ebeneninformationen"
     },
     "layertree": {
       "compare": "Oberste Ebene vergleichen",
+      "deletealllayers": "Alle Ebenen entfernen",
       "importlayer": "Ebene importieren",
       "maptip": "Kartentipps anzeigen",
       "printlegend": "Legende drucken",
-      "deletealllayers": "Alle Ebenen entfernen",
-      "visiblefilter": "Unsichtbare Ebenen filtern",
       "separator": "Separator",
       "separatortooltip": "Separator hinzufügen",
-      "zoomtolayer": "Auf den Layer zoomen"
+      "transparency": "Transparenz",
+      "visiblefilter": "Unsichtbare Ebenen filtern",
+      "zoomtolayer": "Auf Layer zoomen"
     },
     "locate": {
-      "metersUnit": "Meter",
       "feetUnit": "Fuss",
+      "metersUnit": "Meter",
       "popup": "Im Umkreis von {distance} {unit} von diesem Punkt",
       "statustooltip": {
         "DISABLED": "Position: deaktiviert",
-        "LOCATING": "Position: wird bestimmt...",
         "ENABLED": "Position: aktiviert",
         "FOLLOWING": "Position: mit GPS bewegen",
+        "LOCATING": "Position: wird bestimmt...",
         "PERMISSION_DENIED": "Position: Zugriff verweigert"
       }
     },
@@ -143,17 +148,17 @@
       "pointLabel": "Position"
     },
     "print": {
-      "layout": "Format",
       "grid": "Gitter",
+      "layout": "Format",
       "maximize": "Maximieren",
       "minimize": "Minimieren",
       "nolayouts": "Das gewählte Thema stellt keine Druck-Vorlagen zur Verfügung.",
       "notheme": "Kein Thema selektiert",
+      "output": "Druckausgabe",
       "resolution": "Auflösung",
       "rotation": "Rotation",
       "scale": "Massstab",
       "submit": "PDF erzeugen",
-      "output": "Druckausgabe",
       "wait": "Bitte warten..."
     },
     "rasterexport": {
@@ -162,14 +167,14 @@
       "selectinfo": "Rechteck aufziehen um die zu exportierende Region"
     },
     "redlining": {
-      "add": "Hinzufügen",
       "border": "Rand",
       "buffer": "Puffern",
-      "bufferlayername": "Objektpuffer",
+      "buffercompute": "Berechnen",
       "bufferdistance": "Distanz",
       "bufferlayer": "Zielebene",
-      "buffercompute": "Berechnen",
+      "bufferlayername": "Objektpuffer",
       "bufferselectfeature": "Zu pufferndes Objekt auswählen...",
+      "circle": "Kreis",
       "delete": "Löschen",
       "draw": "Zeichnen",
       "edit": "Bearbeiten",
@@ -186,8 +191,10 @@
       "text": "Text",
       "width": "Breite"
     },
+    "scratchdrawing": {
+      "finish": "Abschliessen"
+    },
     "searchbox": {
-      "coordinates": "Koordinaten",
       "filter": "Suche verfeinern",
       "layers": "Karten",
       "more": "weitere Treffer",
@@ -197,30 +204,51 @@
       "places": "Orte",
       "recent": "Zuletzt gesucht"
     },
+    "serviceinfo": {
+      "abstract": "Zusammenfassung",
+      "contactEmail": "Email",
+      "contactOrganization": "Organisation",
+      "contactPerson": "Kontaktperson",
+      "contactPhone": "Telefon",
+      "contactPosition": "Stelle",
+      "keywords": "Schlüsselwörter",
+      "onlineResource": "Online Ressource",
+      "title": "Informationen zum Thema"
+    },
     "share": {
+      "QRCodeLinkTitle": "QR Code (Smartphone)",
       "directLinkTitle": "Über einen direkten Link",
       "generatingpermalink": "Permalink wird erzeugt",
-      "QRCodeLinkTitle": "QR Code (Smartphone)",
       "socialIntro": "In den sozialen Medien"
     },
-    "tooltip": {
-      "home": "Ganze Karte anzeigen",
-      "zoomin": "Hineinzoomen",
-      "zoomout": "Hinauszoomen",
-      "background": "Hintergrundkarte wechseln"
+    "themelayerslist": {
+      "addlayer": "Layer hinzufügen",
+      "addlayerstotheme": "Ebenen der Karte hinzufügen",
+      "addselectedlayers": "Selektierte Ebenen hinzufügen"
     },
     "themeswitcher": {
-      "filter": "Filter",
+      "addlayerstotheme": "Ebenen der Karte hinzufügen",
       "addtotheme": "Dem aktuellen Thema hinzufügen",
+      "filter": "Filter",
       "match": {
-        "title": "Titel",
+        "abstract": "Zusammenfassung",
         "keywords": "Schlüsselwörter",
-        "abstract": "Zusammenfassung"
+        "title": "Titel"
       },
-      "openintab": "In Tab öffnen"
+      "openintab": "In Tab öffnen",
+      "restrictedthemeinfo": "Sie sind nicht Berechtigt oder sind nicht angemeldet"
+    },
+    "tooltip": {
+      "background": "Hintergrundkarte wechseln",
+      "home": "Ganze Karte anzeigen",
+      "zoomin": "Hineinzoomen",
+      "zoomout": "Hinauszoomen"
+    },
+    "vectorlayerpicker": {
+      "prompt": "Ebenenname eingeben"
     },
     "window": {
-      "close": "Schließen",
+      "close": "Schliessen",
       "dock": "Andocken",
       "undock": "Abdocken"
     }

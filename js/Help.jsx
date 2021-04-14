@@ -1,15 +1,13 @@
 /**
- * Copyright 2016, Sourcepole AG.
+ * Copyright 2016-2021 Sourcepole AG
  * All rights reserved.
  *
  * This source code is licensed under the BSD-style license found in the
  * LICENSE file in the root directory of this source tree.
  */
 
-const React = require('react');
+import React from 'react';
 
-function renderHelp() {
+export function renderHelp() {
     return (<div>Help</div>);
 }
-
-module.exports = renderHelp;
