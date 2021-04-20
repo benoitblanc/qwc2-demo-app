@@ -178,6 +178,7 @@ where
 * `themeWhitelist`: Optional, allows specifying a whitelist of theme names or titles for which the entry should be visible.
 * `mapClickAction`: Optional, takes precedence over the `mapClickAction` setting specified in the plugin configuration block, if any. See above.
 * `mode`: Optional, depending on the plugin, a mode can be configured to launch the plugin directly in a specific mode. For instance, the `Measure` plugin supports specifying the measurement mode (`Point`, `LineString`, `Polygon`).
+* `requireAuth`: Optional, the entry is only visible when user is logged-in.
 
 Additionally, entries opening external URLs can be defined as follows:
 
