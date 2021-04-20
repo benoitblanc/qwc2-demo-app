@@ -110,6 +110,7 @@
                 {"key": "ThemeSwitcher", "icon": "themes"},
                 {"key": "LayerTree", "icon": "layers"},
                 {"key": "Share", "icon": "share"},
+                {"key": "Bookmark", "icon": "bookmark", "requireAuth": true},
                 {"key": "Tools", "icon": "tools", "subitems": [
                   {"key": "IdentifyRegion", "icon": "identify_region"},
                   {"key": "Measure", "icon": "measure"},
@@ -253,6 +254,9 @@
         },
         {
           "name": "Authentication"
+        },
+        {
+          "name": "Bookmark"
         }
       ],
       "desktop": [
@@ -327,6 +331,7 @@
                 {"key": "ThemeSwitcher", "icon": "themes"},
                 {"key": "LayerTree", "icon": "layers"},
                 {"key": "Share", "icon": "share"},
+                {"key": "Bookmark", "icon": "bookmark", "requireAuth": true},
                 {"key": "Tools", "icon": "tools", "subitems": [
                   {"key": "IdentifyRegion", "icon": "identify_region"},
                   {"key": "Measure", "icon": "measure"},
@@ -491,6 +496,9 @@
       },
       {
           "name": "ScratchDrawing"
+      },
+      {
+        "name": "Bookmark"
       }
       ]
   }
