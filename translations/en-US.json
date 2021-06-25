@@ -55,11 +55,13 @@
       "copied": "Copied"
     },
     "dxfexport": {
+      "layers": "Layers",
       "selectinfo": "Drag a rectangle around the region to export...",
-      "symbologyscale": "Symbology scale:"
+      "symbologyscale": "Symbology scale"
     },
     "editing": {
       "canceldelete": "Don't delete",
+      "clearpicture": "Clear",
       "commit": "Commit",
       "delete": "Delete",
       "discard": "Discard",
@@ -70,7 +72,9 @@
       "noeditablelayers": "No editable layers.",
       "pick": "Pick",
       "reallydelete": "Delete",
-      "select": "Select"
+      "relationcommitfailed": "Some relation values could not be committed, check the icon tooltips for details",
+      "select": "Select",
+      "takepicture": "Take picture"
     },
     "fileselector": {
       "placeholder": "Select file..."
@@ -91,9 +95,6 @@
       "querying": "Querying...",
       "title": "Feature Info"
     },
-    "identifyregion": {
-      "info": "Draw a polygon around the features to identify..."
-    },
     "importlayer": {
       "addlayer": "Add layer",
       "connect": "Connect",
@@ -106,7 +107,8 @@
       "urlplaceholder": "Enter URL to WMS, WMTS, WFS..."
     },
     "infotool": {
-      "clickhelpPoint": "Click a location to identify in the map..."
+      "clickhelpPoint": "Click a location to identify in the map...",
+      "clickhelpPolygon": "Draw a polygon around the features to identify..."
     },
     "layerinfo": {
       "abstract": "Abstract",
@@ -159,6 +161,7 @@
     "print": {
       "grid": "Grid:",
       "layout": "Layout:",
+      "legend": "Legend",
       "maximize": "Maximize",
       "minimize": "Minimize",
       "nolayouts": "The selected theme does not support printing",

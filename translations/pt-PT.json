@@ -55,11 +55,13 @@
       "copied": "Copiado"
     },
     "dxfexport": {
+      "layers": "",
       "selectinfo": "Arraste um rectângulo ao redor da região para exportar...",
       "symbologyscale": "Escala de simbología:"
     },
     "editing": {
       "canceldelete": "Não apagues",
+      "clearpicture": "",
       "commit": "Comprometer-se",
       "delete": "Excluir",
       "discard": "Descartar",
@@ -70,7 +72,9 @@
       "noeditablelayers": "Não camadas editadas.",
       "pick": "Elegir",
       "reallydelete": "Excluir",
-      "select": "Selecione"
+      "relationcommitfailed": "",
+      "select": "Selecione",
+      "takepicture": ""
     },
     "fileselector": {
       "placeholder": "Selecione ficheiro..."
@@ -91,9 +95,6 @@
       "querying": "Consulta...",
       "title": "Información de recurso"
     },
-    "identifyregion": {
-      "info": "Desenhe um polígono em torno das características para identificar..."
-    },
     "importlayer": {
       "addlayer": "Adicionar camada",
       "connect": "Ligar",
@@ -106,7 +107,8 @@
       "urlplaceholder": "Ingrese dirección URL o WMS, WMTS, WFS..."
     },
     "infotool": {
-      "clickhelpPoint": "Clique numa localização para identificar no mapa..."
+      "clickhelpPoint": "Clique numa localização para identificar no mapa...",
+      "clickhelpPolygon": "Desenhe um polígono em torno das características para identificar..."
     },
     "layerinfo": {
       "abstract": "Resumo",
@@ -159,6 +161,7 @@
     "print": {
       "grid": "Rede:",
       "layout": "Desenho:",
+      "legend": "",
       "maximize": "Maximizar",
       "minimize": "Minimizar",
       "nolayouts": "O tema selecionado não suporta a impressão",

@@ -18,7 +18,7 @@
         "Share": "Condividi",
         "ThemeSwitcher": "Temi",
         "Tools": "Strumenti",
-        "Bookmark": ""
+        "Bookmark": "Segnalibri"
       },
       "menulabel": "Mappa e strumenti"
     },
@@ -37,12 +37,12 @@
       "nobg": "Nessuno sfondo"
     },
     "bookmark": {
-      "add": "",
-      "description": "",
-      "manage": "",
-      "openintab": "",
-      "remove": "",
-      "update": ""
+      "add": "Aggiungi",
+      "description": "Descrizione",
+      "manage": "Gestisci",
+      "openintab": "Apri in nuova scheda",
+      "remove": "Rimuovi",
+      "update": "Aggiorna"
     },
     "bottombar": {
       "mousepos_label": "Coordinate",
@@ -55,11 +55,13 @@
       "copied": "Copiato"
     },
     "dxfexport": {
+      "layers": "Livelli",
       "selectinfo": "Seleziona l'area da esportare",
       "symbologyscale": "Scala per la simbologia"
     },
     "editing": {
       "canceldelete": "Annulla",
+      "clearpicture": "Cancella",
       "commit": "Salva",
       "delete": "Elimina",
       "discard": "Annulla",
@@ -70,7 +72,9 @@
       "noeditablelayers": "Nessun livello modificabile",
       "pick": "Seleziona",
       "reallydelete": "Elimina",
-      "select": "Seleziona..."
+      "relationcommitfailed": "Alcune relazioni non sono state salvate, consultare i tooltip delle icone per i dettagli.",
+      "select": "Seleziona...",
+      "takepicture": "Foto"
     },
     "fileselector": {
       "placeholder": "Seleziona file..."
@@ -91,9 +95,6 @@
       "querying": "Caricando...",
       "title": "Titolo"
     },
-    "identifyregion": {
-      "info": "Disegna un poligono attorno all'area da identificare"
-    },
     "importlayer": {
       "addlayer": "Aggiungi livello",
       "connect": "Connetti",
@@ -106,7 +107,8 @@
       "urlplaceholder": "Indirizzo WMS, WMTS, WFS..."
     },
     "infotool": {
-      "clickhelpPoint": "Seleziona un luogo da identificare sulla mappa..."
+      "clickhelpPoint": "Seleziona un luogo da identificare sulla mappa...",
+      "clickhelpPolygon": "Disegna un poligono attorno all'area da identificare"
     },
     "layerinfo": {
       "abstract": "Riassunto",
@@ -159,6 +161,7 @@
     "print": {
       "grid": "Griglia",
       "layout": "Layout",
+      "legend": "Legenda",
       "maximize": "Massimizza",
       "minimize": "Minimizza",
       "nolayouts": "Nessun layout di stampa",

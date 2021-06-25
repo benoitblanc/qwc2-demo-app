@@ -55,11 +55,13 @@
       "copied": "Copiat"
     },
     "dxfexport": {
+      "layers": "",
       "selectinfo": "Încadrați într-un dreptunghi zona de exportat..",
       "symbologyscale": "Scara simboluri:"
     },
     "editing": {
       "canceldelete": "Elimină modificările",
+      "clearpicture": "",
       "commit": "Salvează",
       "delete": "Șterge",
       "discard": "Renunță",
@@ -70,7 +72,9 @@
       "noeditablelayers": "Tema nu conține straturi ce se pot modifica",
       "pick": "Alege",
       "reallydelete": "Șterge",
-      "select": "Selectează"
+      "relationcommitfailed": "",
+      "select": "Selectează",
+      "takepicture": ""
     },
     "fileselector": {
       "placeholder": "Selectează fișierul"
@@ -91,9 +95,6 @@
       "querying": "Interogare...",
       "title": "Info Entități"
     },
-    "identifyregion": {
-      "info": "Încadrați într-un poligon entitățile de identificat..."
-    },
     "importlayer": {
       "addlayer": "Adaugă strat",
       "connect": "Conectare",
@@ -106,7 +107,8 @@
       "urlplaceholder": "Introdu URL către WMS, WMTS, WFS..."
     },
     "infotool": {
-      "clickhelpPoint": ""
+      "clickhelpPoint": "",
+      "clickhelpPolygon": "Încadrați într-un poligon entitățile de identificat..."
     },
     "layerinfo": {
       "abstract": "Abstract",
@@ -159,6 +161,7 @@
     "print": {
       "grid": "Grid",
       "layout": "Șablon:",
+      "legend": "",
       "maximize": "Maximizează",
       "minimize": "Minimizează",
       "nolayouts": "Această temă nu are șabloane de print",

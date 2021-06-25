@@ -319,7 +319,7 @@ The format of the theme definitions is as follows:
 | `"mapTips":  <boolean>\|null,`                | Optional, per-theme setting whether map-tips are unavailable (`null`), disabled by default (`false`) or enabled by default (`true`). |
 | `"extraLegendParameters": "<&KEY=VALUE>",`    | Optional, additional query parameters to append to WMS GetLegendGraphic.         |
 | `"printLabelBlacklist":  ["<LabelId>", ...]`  | Optional, list of composer label ids to not expose in the print dialog. |
-| `"editConfig": "<editConfig.json>"`           | Optional, path to a filename containing the editing configuration for the theme, see [EditingInterface.js](#editing-interface). |
+| `"editConfig": "<editConfig.json>"`           | Optional, object or path to a filename containing the editing configuration for the theme, see [EditingInterface.js](#editing-interface). |
 | `"config": {`                                 | Optional, per-theme configuration entries which override the global entries in `config.json`.|
 | `  "allowRemovingThemeLayers": <boolean>`     | See [`config.json`](#config-json-overrideable) for which settings can be specified here. |
 | `  ...`                                       |                                                                                  |
@@ -657,7 +657,7 @@ The API plugin binds many application actions to the `window.qwc2` object and ma
   - `window.qwc2.addExternalLayer(resource, beforeLayerName=null)`
   - `window.qwc2.drawScratch(geomType, message, drawMultiple, callback, style = null)`
 
-See the docstrings in [API.js](https://github.com/qgis/qwc2/tree/master/plugins/API.js) as well as the actions functions linked above for more information.
+See the docstrings in [API.js](https://github.com/qgis/qwc2/blob/master/plugins/API.jsx) as well as the actions functions linked above for more information.
 
 See [api_examples.js](https://github.com/qgis/qwc2-demo-app/blob/master/api_examples.js) for some concrete examples.
 

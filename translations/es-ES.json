@@ -55,11 +55,13 @@
       "copied": "Copiado"
     },
     "dxfexport": {
+      "layers": "",
       "selectinfo": "Arrastre un rectángulo alrededor de la zona para exportar...",
       "symbologyscale": "Escala de la simbología:"
     },
     "editing": {
       "canceldelete": "No borrar",
+      "clearpicture": "",
       "commit": "Confirmar",
       "delete": "Borrar",
       "discard": "Descartar",
@@ -70,7 +72,9 @@
       "noeditablelayers": "Sin capas a modificar.",
       "pick": "Elegir",
       "reallydelete": "Borrar",
-      "select": "Seleccionar"
+      "relationcommitfailed": "",
+      "select": "Seleccionar",
+      "takepicture": ""
     },
     "fileselector": {
       "placeholder": "Seleccionar archivo..."
@@ -91,9 +95,6 @@
       "querying": "Consultando...",
       "title": "Información del elemento"
     },
-    "identifyregion": {
-      "info": "Trace un polígono alrededor de los elementos para identificarlos..."
-    },
     "importlayer": {
       "addlayer": "Agregar capa",
       "connect": "Conectar",
@@ -106,7 +107,8 @@
       "urlplaceholder": "Ingrese dirección URL o WMS, WMTS, WFS..."
     },
     "infotool": {
-      "clickhelpPoint": "Haga click en una ubicación para identificar en el mapa..."
+      "clickhelpPoint": "Haga click en una ubicación para identificar en el mapa...",
+      "clickhelpPolygon": "Trace un polígono alrededor de los elementos para identificarlos..."
     },
     "layerinfo": {
       "abstract": "Resumen",
@@ -159,6 +161,7 @@
     "print": {
       "grid": "Grilla:",
       "layout": "Diseño:",
+      "legend": "",
       "maximize": "Maximizar",
       "minimize": "Minimizar",
       "nolayouts": "El tema seleccionado no admite su impresión",

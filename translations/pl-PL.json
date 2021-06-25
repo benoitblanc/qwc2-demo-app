@@ -55,11 +55,13 @@
       "copied": "Skopiowano"
     },
     "dxfexport": {
+      "layers": "",
       "selectinfo": "Narysuj prostokąt, określając obszar do eksportu...",
       "symbologyscale": "Skala symbolizacji:"
     },
     "editing": {
       "canceldelete": "Nie usuwaj",
+      "clearpicture": "",
       "commit": "Zatwierdź",
       "delete": "Usuń",
       "discard": "Odrzuć",
@@ -70,7 +72,9 @@
       "noeditablelayers": "Brak edytowalnych warstw.",
       "pick": "Wybierz",
       "reallydelete": "Usuń",
-      "select": "Zaznacz"
+      "relationcommitfailed": "",
+      "select": "Zaznacz",
+      "takepicture": ""
     },
     "fileselector": {
       "placeholder": "Wybierz plik..."
@@ -91,9 +95,6 @@
       "querying": "Przetwarzam zapytanie...",
       "title": "Feature Info"
     },
-    "identifyregion": {
-      "info": "Narysuj poligon wokół obiektów, aby zidentyfikować..."
-    },
     "importlayer": {
       "addlayer": "Dodaj warstwę",
       "connect": "Połącz",
@@ -106,7 +107,8 @@
       "urlplaceholder": "Podaj URL do WMS, WFS, WMTS..."
     },
     "infotool": {
-      "clickhelpPoint": ""
+      "clickhelpPoint": "",
+      "clickhelpPolygon": "Narysuj poligon wokół obiektów, aby zidentyfikować..."
     },
     "layerinfo": {
       "abstract": "Abstrakt",
@@ -159,6 +161,7 @@
     "print": {
       "grid": "Siatka:",
       "layout": "Layout:",
+      "legend": "",
       "maximize": "Maksymalizuj",
       "minimize": "Minimalizuj",
       "nolayouts": "Wybrany motyw nie umożliwia drukowania",

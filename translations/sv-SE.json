@@ -55,11 +55,13 @@
       "copied": "Kopierade"
     },
     "dxfexport": {
+      "layers": "",
       "selectinfo": "Rita en rektangel runt området som ska exporteras...",
       "symbologyscale": "Symbolskala:"
     },
     "editing": {
       "canceldelete": "Radera inte",
+      "clearpicture": "",
       "commit": "Skicka",
       "delete": "Radera",
       "discard": "Förkasta",
@@ -70,7 +72,9 @@
       "noeditablelayers": "Inga redigerbara lager",
       "pick": "Välj",
       "reallydelete": "Verkligen radera",
-      "select": "Välj"
+      "relationcommitfailed": "",
+      "select": "Välj",
+      "takepicture": ""
     },
     "fileselector": {
       "placeholder": "Välj fil..."
@@ -91,9 +95,6 @@
       "querying": "Frågar...",
       "title": "Objektinformation"
     },
-    "identifyregion": {
-      "info": "Rita en polygon runt objektn som ska identifieras"
-    },
     "importlayer": {
       "addlayer": "Lägg till lager",
       "connect": "Anslut",
@@ -106,7 +107,8 @@
       "urlplaceholder": "Skriv in URL till WMS, WMTS, WFS..."
     },
     "infotool": {
-      "clickhelpPoint": ""
+      "clickhelpPoint": "",
+      "clickhelpPolygon": "Rita en polygon runt objektn som ska identifieras"
     },
     "layerinfo": {
       "abstract": "Sammanfattning",
@@ -159,6 +161,7 @@
     "print": {
       "grid": "Rutnät",
       "layout": "Layout:",
+      "legend": "",
       "maximize": "Maximera",
       "minimize": "Minimera",
       "nolayouts": "Valt tema stöder inte utskrift",

@@ -55,11 +55,13 @@
       "copied": "Zkopírováno"
     },
     "dxfexport": {
+      "layers": "",
       "selectinfo": "Vyberte obdélníkem oblast pro export...",
       "symbologyscale": "Meřítko symbolů:"
     },
     "editing": {
       "canceldelete": "Neodstraňovat",
+      "clearpicture": "",
       "commit": "Potvrdit",
       "delete": "Odstranit",
       "discard": "Vyřadit",
@@ -70,7 +72,9 @@
       "noeditablelayers": "Needitovatelná vrstva.",
       "pick": "Výběr",
       "reallydelete": "Odstranit",
-      "select": "Vybrat"
+      "relationcommitfailed": "",
+      "select": "Vybrat",
+      "takepicture": ""
     },
     "fileselector": {
       "placeholder": "Vybrat soubor..."
@@ -91,9 +95,6 @@
       "querying": "Dotazování...",
       "title": "Informace o prvku"
     },
-    "identifyregion": {
-      "info": "Nakreslete polygon pro identifikaci..."
-    },
     "importlayer": {
       "addlayer": "Přidat vrstvu",
       "connect": "Připojit",
@@ -106,7 +107,8 @@
       "urlplaceholder": "Vložit URL pro WMS, WMTS, WFS..."
     },
     "infotool": {
-      "clickhelpPoint": ""
+      "clickhelpPoint": "",
+      "clickhelpPolygon": "Nakreslete polygon pro identifikaci..."
     },
     "layerinfo": {
       "abstract": "Abstraktní",
@@ -159,6 +161,7 @@
     "print": {
       "grid": "Mřížka:",
       "layout": "Rovržení:",
+      "legend": "",
       "maximize": "Maximální",
       "minimize": "Minimální",
       "nolayouts": "Vybrané téma nepodporuje tisk",

@@ -18,7 +18,7 @@
         "Share": "Teilen",
         "ThemeSwitcher": "Themen",
         "Tools": "Werkzeuge",
-        "Bookmark": ""
+        "Bookmark": "Lesezeichen"
       },
       "menulabel": "Karte & Werkzeuge"
     },
@@ -37,12 +37,12 @@
       "nobg": "Kein Hintergrund"
     },
     "bookmark": {
-      "add": "",
-      "description": "",
-      "manage": "",
-      "openintab": "",
-      "remove": "",
-      "update": ""
+      "add": "Hinzufügen",
+      "description": "Beschreibung",
+      "manage": "Verwalten",
+      "openintab": "In Tab öffnen",
+      "remove": "Entfernen",
+      "update": "Aktualisieren"
     },
     "bottombar": {
       "mousepos_label": "Koordinaten",
@@ -55,11 +55,13 @@
       "copied": "Kopiert"
     },
     "dxfexport": {
+      "layers": "Ebenen",
       "selectinfo": "Rechteck aufziehen um die zu exportierende Region",
       "symbologyscale": "Darstellungsmassstab"
     },
     "editing": {
       "canceldelete": "Abbrechen",
+      "clearpicture": "Zurücksetzen",
       "commit": "Speichern",
       "delete": "Löschen",
       "discard": "Abbrechen",
@@ -70,7 +72,9 @@
       "noeditablelayers": "Keine editierbare Ebenen.",
       "pick": "Auswählen",
       "reallydelete": "Löschen",
-      "select": "Auswählen"
+      "relationcommitfailed": "Einige Relationen konnten nicht gespeichert werden, siehe Tooltips der Ikonen für mehr Details.",
+      "select": "Auswählen",
+      "takepicture": "Bild schiessen"
     },
     "fileselector": {
       "placeholder": "Datei auswählen"
@@ -91,9 +95,6 @@
       "querying": "Objekte werden abgefragt...",
       "title": "Objektinformationen"
     },
-    "identifyregion": {
-      "info": "Polygon um die zu identifizierende Objekte zeichnen"
-    },
     "importlayer": {
       "addlayer": "Ebene hinzufügen",
       "connect": "Verbinden",
@@ -106,7 +107,8 @@
       "urlplaceholder": "WMS, WMTS oder WFS URL eingeben..."
     },
     "infotool": {
-      "clickhelpPoint": "Zu identifizierende Position in der Karte auswählen..."
+      "clickhelpPoint": "Zu identifizierende Position in der Karte auswählen...",
+      "clickhelpPolygon": "Polygon um die zu identifizierende Objekte zeichnen"
     },
     "layerinfo": {
       "abstract": "Zusammenfassung",
@@ -159,6 +161,7 @@
     "print": {
       "grid": "Gitter",
       "layout": "Format",
+      "legend": "Legende",
       "maximize": "Maximieren",
       "minimize": "Minimieren",
       "nolayouts": "Das gewählte Thema stellt keine Druck-Vorlagen zur Verfügung.",

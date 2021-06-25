@@ -55,11 +55,13 @@
       "copied": "Kopyalandı"
     },
     "dxfexport": {
+      "layers": "",
       "selectinfo": "Export edilecek alana bir dikdörtgen çizin...",
       "symbologyscale": "Sembol Ölçeği:"
     },
     "editing": {
       "canceldelete": "Silme",
+      "clearpicture": "",
       "commit": "Onayla",
       "delete": "Sil",
       "discard": "İptal",
@@ -70,7 +72,9 @@
       "noeditablelayers": "Düzenlenebilir katman yok.",
       "pick": "Seç",
       "reallydelete": "Sil",
-      "select": "Seçim"
+      "relationcommitfailed": "",
+      "select": "Seçim",
+      "takepicture": ""
     },
     "fileselector": {
       "placeholder": "Dosya seç..."
@@ -91,9 +95,6 @@
       "querying": "Sorgulanıyor...",
       "title": "Obje Bilgisi"
     },
-    "identifyregion": {
-      "info": "Bilgi alınacak alanı poligon çizerek belirleyiniz..."
-    },
     "importlayer": {
       "addlayer": "Katman ekle",
       "connect": "Bağlan",
@@ -106,7 +107,8 @@
       "urlplaceholder": "WMS, WMTS, WFS Adresini giriniz..."
     },
     "infotool": {
-      "clickhelpPoint": ""
+      "clickhelpPoint": "",
+      "clickhelpPolygon": "Bilgi alınacak alanı poligon çizerek belirleyiniz..."
     },
     "layerinfo": {
       "abstract": "Özet",
@@ -159,6 +161,7 @@
     "print": {
       "grid": "Grid:",
       "layout": "Yazdırma düzeni:",
+      "legend": "",
       "maximize": "Büyült",
       "minimize": "Küçült",
       "nolayouts": "Seçili tema yazdırma işlemini desteklemiyor",

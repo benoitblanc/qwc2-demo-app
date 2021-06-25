@@ -55,11 +55,13 @@
       "copied": "Скопировано"
     },
     "dxfexport": {
+      "layers": "",
       "selectinfo": "Для экспорта обведите регион многоугольником...",
       "symbologyscale": "Масштаб символики:"
     },
     "editing": {
       "canceldelete": "Не удалять",
+      "clearpicture": "",
       "commit": "Подтвердить изменения",
       "delete": "Удалить",
       "discard": "Отменить изменения",
@@ -70,7 +72,9 @@
       "noeditablelayers": "Отсутствуют доступные для редактирования слои.",
       "pick": "Выбрать",
       "reallydelete": "Удалить",
-      "select": "Выберите..."
+      "relationcommitfailed": "",
+      "select": "Выберите...",
+      "takepicture": ""
     },
     "fileselector": {
       "placeholder": "Выберите файл..."
@@ -91,9 +95,6 @@
       "querying": "Выполняется запрос...",
       "title": "Информация об объекте"
     },
-    "identifyregion": {
-      "info": "Для получения информации обведите регион многоугольником..."
-    },
     "importlayer": {
       "addlayer": "Добавить слой",
       "connect": "Подключиться",
@@ -106,7 +107,8 @@
       "urlplaceholder": "Введите URL для WMS, WMTS, WFS..."
     },
     "infotool": {
-      "clickhelpPoint": ""
+      "clickhelpPoint": "",
+      "clickhelpPolygon": "Для получения информации обведите регион многоугольником..."
     },
     "layerinfo": {
       "abstract": "Abstract",
@@ -159,6 +161,7 @@
     "print": {
       "grid": "Сетка:",
       "layout": "Формат бумаги:",
+      "legend": "",
       "maximize": "Развернуть",
       "minimize": "Свернуть",
       "nolayouts": "Выбранная тема не поддерживает печать",
