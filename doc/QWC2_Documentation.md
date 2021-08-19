@@ -295,7 +295,7 @@ The format of the theme definitions is as follows:
 | `},`                                          |                                                                                  |
 | `"backgroundLayers": [{,`                     | Optional, list of available background layers.                                   |
 | `  "name": "<Background layer name>",`        | Name of matching `BackgroundLayerDefinition`, see below.                         |
-| `  "printLayer": "<QGis layer name>"\|[<list>],`| Optional, name of layer to use as matching background layer when printing. Alternatively, a list `[{"maxScale": <scale>, "name": "<QGis layer name>"}, ..., {"maxScale": null, "name": "<QGis layer name>"}]` can be provided, ordered in ascending order by `maxScale`. The last entry should have `maxScale` `null`, as the layer used for all remaining scales. If omitted, no background is printed. |
+| `  "printLayer": "<QGis layer name>"\|[<list>],`| Optional, name of layer to use as matching background layer when printing. Alternatively, a list `[{"maxScale": <scale>, "name": "<QGis layer name>"}, ..., {"maxScale": null, "name": "<QGis layer name>"}]` can be provided, ordered in ascending order by `maxScale`. The last entry should have `maxScale` `null`, as the layer used for all remaining scales. If omitted, no background is printed, unless layer is of type "wms" and `printExternalLayers` is `true` in the Print plugin configuration. |
 | `  "visibility": <boolean>`                   | Optional, initial visibility of the layer when theme is loaded.                  |
 | `}],`                                         |                                                                                  |
 | `"searchProviders": ["<ProviderId>"],`        | Optional, list of search providers IDs. An ID corresponds to the key of the exported `SearchProviders` object in `js/SearchProviders.js`. |
@@ -588,7 +588,7 @@ where
       <wms|wfs>:<service_url>#<layername>
    for external layers, i.e. `wms:https://wms.geo.admin.ch/?#ch.are.bauzonen`.
 - `<transparency>` denotes the layer transparency, betwen 0 and 100. If the `[<transparency>]` portion is omitted, the layer is fully opaque.
-- `!` denotes that the layer is invisible. If omitted, the layer is visible.
+- `!` denotes that the layer is invisible. If omitted, the layer is visible. If the layer is visible in an invisible parent group, `~` is used.
 
 *Note*: If group name is specified instead of the layer name, QWC2 will automatically resolve this to all layer names contained in that group, and will apply transparency and visibility settings as specified for the group.
 
