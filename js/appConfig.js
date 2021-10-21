@@ -35,7 +35,6 @@ import LayerCatalogPlugin from 'qwc2/plugins/LayerCatalog';
 import IdentifyPlugin from 'qwc2/plugins/Identify';
 import MapTipPlugin from 'qwc2/plugins/MapTip';
 import SharePlugin from 'qwc2/plugins/Share';
-import BookmarkPlugin from 'qwc2/plugins/Bookmark';
 import MapCopyrightPlugin from 'qwc2/plugins/MapCopyright';
 import PrintPlugin from 'qwc2/plugins/Print';
 import HelpPlugin from 'qwc2/plugins/Help';
@@ -94,7 +93,6 @@ export default {
             IdentifyPlugin: IdentifyPlugin,
             MapTipPlugin: MapTipPlugin,
             SharePlugin: SharePlugin,
-            BookmarkPlugin: BookmarkPlugin,
             MapCopyrightPlugin: MapCopyrightPlugin,
             PrintPlugin: PrintPlugin,
             HelpPlugin: HelpPlugin(renderHelp),
