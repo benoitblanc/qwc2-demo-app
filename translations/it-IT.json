@@ -4,10 +4,12 @@
     "appmenu": {
       "items": {
         "ExternalLink": "Collegamento esterno",
+        "AttributeTable": "Tabella attributi",
         "DxfExport": "Esporta su DXF",
         "Editing": "Strumenti di modifica",
         "Help": "Aiuto",
         "IdentifyRegion": "Identifica in un poligono",
+        "LayerCatalog": "Catalogo livelli",
         "LayerTree": "Livelli",
         "Login": "Accedi",
         "Logout": "Disconnetti",
@@ -20,6 +22,7 @@
         "Tools": "Strumenti",
         "Bookmark": "Segnalibri"
       },
+      "filter": "Filtra menü...",
       "menulabel": "Mappa e strumenti"
     },
     "search": {
@@ -29,9 +32,22 @@
       "existinglayer": "Il livello esiste già nella mappa",
       "invisiblelayer": "Il risultato si trova su un livello che non è visibile.",
       "more": "Altri risultati",
+      "providerselection": "Selezione provider",
       "search": "Cerca",
       "searchall": "Cerca località o aggiungi cartine...",
+      "searchinprogress": "Ricerca in corso...",
+      "searchreset": "Resetta ricerca",
       "themes": "Temi"
+    },
+    "attribtable": {
+      "commit": "Salva riga modificata",
+      "discard": "Ripristina riga modificata",
+      "layer": "Livello",
+      "loadfailed": "",
+      "loading": "Caricamento...",
+      "reload": "Ricarica dati",
+      "selectlayer": "Seleziona livello...",
+      "title": "Tabella attributi"
     },
     "bgswitcher": {
       "nobg": "Nessuno sfondo"
@@ -40,6 +56,8 @@
       "add": "Aggiungi",
       "description": "Descrizione",
       "manage": "Gestisci",
+      "notloggedin": "È necessario aver effettuato l'accesso per utilizzare i segnalibri",
+      "open": "Apri",
       "openintab": "Apri in nuova scheda",
       "remove": "Rimuovi",
       "update": "Aggiorna"
@@ -82,7 +100,7 @@
     "heightprofile": {
       "asl": "s.l.m.",
       "distance": "Distanza",
-      "export": "",
+      "export": "Esporta",
       "height": "Altitudine",
       "loading": "Calcolo del profilo di altezza..."
     },
@@ -110,6 +128,9 @@
     "infotool": {
       "clickhelpPoint": "Seleziona un luogo da identificare sulla mappa...",
       "clickhelpPolygon": "Disegna un poligono attorno all'area da identificare"
+    },
+    "layercatalog": {
+      "windowtitle": "Catalogo livelli"
     },
     "layerinfo": {
       "abstract": "Riassunto",
@@ -147,7 +168,8 @@
       }
     },
     "map": {
-      "loading": "In caricamento..."
+      "loading": "In caricamento...",
+      "resetrotation": "Resetta orientamento"
     },
     "mapinfotooltip": {
       "elevation": "Altitudine",
@@ -232,6 +254,7 @@
       "QRCodeLinkTitle": "Codice QR",
       "directLinkTitle": "Collegamento diretto",
       "generatingpermalink": "Sto generando il permalink",
+      "showpin": "Mostra pin",
       "socialIntro": "Social network"
     },
     "themelayerslist": {
@@ -242,6 +265,7 @@
     "themeswitcher": {
       "addlayerstotheme": "Aggiungi layer alla mappa corrente",
       "addtotheme": "Aggiungere al tema corrente",
+      "confirmswitch": "Layer che non fanno parte del tema saranno rimossi. Procedere?",
       "filter": "Filtra...",
       "match": {
         "abstract": "Riassunto",
@@ -249,10 +273,12 @@
         "title": "Titolo"
       },
       "openintab": "Apri in nuova scheda",
-      "restrictedthemeinfo": ""
+      "restrictedthemeinfo": "Non sei autorizzato a visualizzare il tema oppure non hai effettuato il login"
     },
     "tooltip": {
       "background": "Cambia sfondo",
+      "fullscreendisable": "Disattiva modalità schermo intero",
+      "fullscreenenable": "Attiva modalitä schermo intero",
       "home": "Mostra tutta la mappa intera",
       "zoomin": "Ingrandisci",
       "zoomout": "Rimpicciolisci"
@@ -263,7 +289,9 @@
     "window": {
       "close": "Chiudi",
       "dock": "Aggancia",
-      "undock": "Sgancia"
+      "maximize": "Massimizza",
+      "undock": "Sgancia",
+      "unmaximize": "Ripristina"
     }
   }
 }

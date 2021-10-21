@@ -4,10 +4,12 @@
     "appmenu": {
       "items": {
         "ExternalLink": "",
+        "AttributeTable": "",
         "DxfExport": "Export DXF",
         "Editing": "Editer",
         "Help": "Aide",
         "IdentifyRegion": "Interroger la région",
+        "LayerCatalog": "",
         "LayerTree": "Couches",
         "Login": "Connexion",
         "Logout": "Déconnexion",
@@ -20,6 +22,7 @@
         "Tools": "Outils",
         "Bookmark": "Marque-pages"
       },
+      "filter": "",
       "menulabel": "Cartes et outils"
     },
     "search": {
@@ -29,9 +32,22 @@
       "existinglayer": "La couche existe déjà dans la carte",
       "invisiblelayer": "Le résultat est sur une couche désactivé",
       "more": "Plus...",
+      "providerselection": "",
       "search": "Chercher",
       "searchall": "Rechercher un lieu ou ajouter une carte...",
+      "searchinprogress": "",
+      "searchreset": "",
       "themes": "Cartes"
+    },
+    "attribtable": {
+      "commit": "",
+      "discard": "",
+      "layer": "",
+      "loadfailed": "",
+      "loading": "",
+      "reload": "",
+      "selectlayer": "",
+      "title": ""
     },
     "bgswitcher": {
       "nobg": "Pas de fond"
@@ -40,6 +56,8 @@
       "add": "Ajouter un marque-page",
       "description": "Description",
       "manage": "Gérer les marque-pages",
+      "notloggedin": "",
+      "open": "",
       "openintab": "Ouvrir dans un nouvel onglet",
       "remove": "Supprimer le marque-page",
       "update": "Sauvegarder le marque-page"
@@ -111,6 +129,9 @@
       "clickhelpPoint": "Cliquez sur un emplacement pour l'identifier sur la carte...",
       "clickhelpPolygon": "Dessiner un polygone pour identifier les objets"
     },
+    "layercatalog": {
+      "windowtitle": ""
+    },
     "layerinfo": {
       "abstract": "Récapitulation",
       "attribution": "Attribution",
@@ -147,7 +168,8 @@
       }
     },
     "map": {
-      "loading": "Chargement de la carte..."
+      "loading": "Chargement de la carte...",
+      "resetrotation": ""
     },
     "mapinfotooltip": {
       "elevation": "Altitude",
@@ -232,6 +254,7 @@
       "QRCodeLinkTitle": "QR code",
       "directLinkTitle": "Via un lien direct",
       "generatingpermalink": "Un lien permanent est généré...",
+      "showpin": "",
       "socialIntro": "Via votre réseau social favori"
     },
     "themelayerslist": {
@@ -242,6 +265,7 @@
     "themeswitcher": {
       "addlayerstotheme": "Ajouter des couches à la carte",
       "addtotheme": "Ajouter au thème actuel",
+      "confirmswitch": "",
       "filter": "Filtre...",
       "match": {
         "abstract": "Résumé",
@@ -253,6 +277,8 @@
     },
     "tooltip": {
       "background": "Changer de fond",
+      "fullscreendisable": "",
+      "fullscreenenable": "",
       "home": "Afficher toute la carte",
       "zoomin": "Zoomer",
       "zoomout": "Dézoomer"
@@ -263,7 +289,9 @@
     "window": {
       "close": "Fermer",
       "dock": "attacher",
-      "undock": "détacher"
+      "maximize": "",
+      "undock": "détacher",
+      "unmaximize": ""
     }
   }
 }

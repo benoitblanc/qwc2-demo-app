@@ -4,10 +4,12 @@
     "appmenu": {
       "items": {
         "ExternalLink": "",
+        "AttributeTable": "",
         "DxfExport": "Exportar DXF",
         "Editing": "Editando",
         "Help": "Ayuda",
         "IdentifyRegion": "Identificar zona",
+        "LayerCatalog": "",
         "LayerTree": "Capas & Leyenda",
         "Login": "Inicio de sesión",
         "Logout": "Cierre de sesión",
@@ -20,6 +22,7 @@
         "Tools": "Herramientas de Mapa",
         "Bookmark": ""
       },
+      "filter": "",
       "menulabel": "Mapa & Herramientas"
     },
     "search": {
@@ -29,9 +32,22 @@
       "existinglayer": "La capa ya existe en el mapa",
       "invisiblelayer": "El resultado se encuentra en una capa no visible",
       "more": "Más...",
+      "providerselection": "",
       "search": "Buscar",
       "searchall": "Buscar lugares o agregar mapas...",
+      "searchinprogress": "",
+      "searchreset": "",
       "themes": "Temas"
+    },
+    "attribtable": {
+      "commit": "",
+      "discard": "",
+      "layer": "",
+      "loadfailed": "",
+      "loading": "",
+      "reload": "",
+      "selectlayer": "",
+      "title": ""
     },
     "bgswitcher": {
       "nobg": "Sin fondo"
@@ -40,6 +56,8 @@
       "add": "",
       "description": "",
       "manage": "",
+      "notloggedin": "",
+      "open": "",
       "openintab": "",
       "remove": "",
       "update": ""
@@ -111,6 +129,9 @@
       "clickhelpPoint": "Haga click en una ubicación para identificar en el mapa...",
       "clickhelpPolygon": "Trace un polígono alrededor de los elementos para identificarlos..."
     },
+    "layercatalog": {
+      "windowtitle": ""
+    },
     "layerinfo": {
       "abstract": "Resumen",
       "attribution": "Atribución",
@@ -147,7 +168,8 @@
       }
     },
     "map": {
-      "loading": "Cargando..."
+      "loading": "Cargando...",
+      "resetrotation": ""
     },
     "mapinfotooltip": {
       "elevation": "Elevación",
@@ -232,6 +254,7 @@
       "QRCodeLinkTitle": "Código QR",
       "directLinkTitle": "Vía un vínculo directo",
       "generatingpermalink": "Generando un enlace permanente...",
+      "showpin": "",
       "socialIntro": "En tu red social favorita"
     },
     "themelayerslist": {
@@ -242,6 +265,7 @@
     "themeswitcher": {
       "addlayerstotheme": "Agregar capas al mapa actual",
       "addtotheme": "Agregar al actual tema",
+      "confirmswitch": "",
       "filter": "Filtrar...",
       "match": {
         "abstract": "Resumen",
@@ -253,6 +277,8 @@
     },
     "tooltip": {
       "background": "Cambiar fondo",
+      "fullscreendisable": "",
+      "fullscreenenable": "",
       "home": "Mostrar todo el mapa",
       "zoomin": "Acercarse",
       "zoomout": "Alejarse"
@@ -263,7 +289,9 @@
     "window": {
       "close": "Cerrar",
       "dock": "Acoplar",
-      "undock": "Desacoplar"
+      "maximize": "",
+      "undock": "Desacoplar",
+      "unmaximize": ""
     }
   }
 }

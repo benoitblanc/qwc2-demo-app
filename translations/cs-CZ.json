@@ -4,10 +4,12 @@
     "appmenu": {
       "items": {
         "ExternalLink": "",
+        "AttributeTable": "",
         "DxfExport": "DXF Export",
         "Editing": "Úpravy",
         "Help": "Nápověda",
         "IdentifyRegion": "Určit oblast",
+        "LayerCatalog": "",
         "LayerTree": "Vrstvy & Legenda",
         "Login": "Přihlášení",
         "Logout": "Odhlášení",
@@ -20,6 +22,7 @@
         "Tools": "Nástroje Mapy",
         "Bookmark": ""
       },
+      "filter": "",
       "menulabel": "Mapa & Nástroje"
     },
     "search": {
@@ -29,9 +32,22 @@
       "existinglayer": "",
       "invisiblelayer": "",
       "more": "Více...",
+      "providerselection": "",
       "search": "Hledat",
       "searchall": "Najít místo nebo přidat mapu...",
+      "searchinprogress": "",
+      "searchreset": "",
       "themes": "Témata"
+    },
+    "attribtable": {
+      "commit": "",
+      "discard": "",
+      "layer": "",
+      "loadfailed": "",
+      "loading": "",
+      "reload": "",
+      "selectlayer": "",
+      "title": ""
     },
     "bgswitcher": {
       "nobg": "Bez podkladu"
@@ -40,6 +56,8 @@
       "add": "",
       "description": "",
       "manage": "",
+      "notloggedin": "",
+      "open": "",
       "openintab": "",
       "remove": "",
       "update": ""
@@ -111,6 +129,9 @@
       "clickhelpPoint": "",
       "clickhelpPolygon": "Nakreslete polygon pro identifikaci..."
     },
+    "layercatalog": {
+      "windowtitle": ""
+    },
     "layerinfo": {
       "abstract": "Abstraktní",
       "attribution": "Atributy",
@@ -147,7 +168,8 @@
       }
     },
     "map": {
-      "loading": "Načítání..."
+      "loading": "Načítání...",
+      "resetrotation": ""
     },
     "mapinfotooltip": {
       "elevation": "Nadmořská výška",
@@ -232,6 +254,7 @@
       "QRCodeLinkTitle": "QR kód",
       "directLinkTitle": "Přes přímé spojení",
       "generatingpermalink": "Generovat permalink...",
+      "showpin": "",
       "socialIntro": "Ve vaší oblíbené sociální síti"
     },
     "themelayerslist": {
@@ -242,6 +265,7 @@
     "themeswitcher": {
       "addlayerstotheme": "",
       "addtotheme": "Přidat k aktuálnímu tématu",
+      "confirmswitch": "",
       "filter": "Filtr...",
       "match": {
         "abstract": "",
@@ -253,6 +277,8 @@
     },
     "tooltip": {
       "background": "Přepnout podkladovou mapu",
+      "fullscreendisable": "",
+      "fullscreenenable": "",
       "home": "Zobrazit celou mapu",
       "zoomin": "Přiblížit",
       "zoomout": "Oddálit"
@@ -263,7 +289,9 @@
     "window": {
       "close": "",
       "dock": "",
-      "undock": ""
+      "maximize": "",
+      "undock": "",
+      "unmaximize": ""
     }
   }
 }

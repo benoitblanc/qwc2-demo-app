@@ -4,10 +4,12 @@
     "appmenu": {
       "items": {
         "ExternalLink": "",
+        "AttributeTable": "",
         "DxfExport": "Eksport DXF",
         "Editing": "Edycja",
         "Help": "Pomoc",
         "IdentifyRegion": "Identifikuj Obszar",
+        "LayerCatalog": "",
         "LayerTree": "Warstwy i ich legendy",
         "Login": "Zaloguj",
         "Logout": "Wyloguj",
@@ -20,6 +22,7 @@
         "Tools": "Narzędzia Mapy",
         "Bookmark": ""
       },
+      "filter": "",
       "menulabel": "Zawartość mapy i narzędzia"
     },
     "search": {
@@ -29,9 +32,22 @@
       "existinglayer": "",
       "invisiblelayer": "Wynik znajduje się na warstwie, która nie jest widoczna.",
       "more": "Więcej...",
+      "providerselection": "",
       "search": "Szukaj",
       "searchall": "Szukaj miejsc lub dodaj mapy...",
+      "searchinprogress": "",
+      "searchreset": "",
       "themes": "Motywy"
+    },
+    "attribtable": {
+      "commit": "",
+      "discard": "",
+      "layer": "",
+      "loadfailed": "",
+      "loading": "",
+      "reload": "",
+      "selectlayer": "",
+      "title": ""
     },
     "bgswitcher": {
       "nobg": "Bez tła"
@@ -40,6 +56,8 @@
       "add": "",
       "description": "",
       "manage": "",
+      "notloggedin": "",
+      "open": "",
       "openintab": "",
       "remove": "",
       "update": ""
@@ -111,6 +129,9 @@
       "clickhelpPoint": "",
       "clickhelpPolygon": "Narysuj poligon wokół obiektów, aby zidentyfikować..."
     },
+    "layercatalog": {
+      "windowtitle": ""
+    },
     "layerinfo": {
       "abstract": "Abstrakt",
       "attribution": "Właściwości",
@@ -147,7 +168,8 @@
       }
     },
     "map": {
-      "loading": "Ładowanie..."
+      "loading": "Ładowanie...",
+      "resetrotation": ""
     },
     "mapinfotooltip": {
       "elevation": "Wysokość",
@@ -232,6 +254,7 @@
       "QRCodeLinkTitle": "QR code",
       "directLinkTitle": "Poprzez link bezpośredni",
       "generatingpermalink": "Generowanie permalinku...",
+      "showpin": "",
       "socialIntro": "W twoich ulubionych mediach społecznościowych"
     },
     "themelayerslist": {
@@ -242,6 +265,7 @@
     "themeswitcher": {
       "addlayerstotheme": "",
       "addtotheme": "Dodaj do obecnego motywu",
+      "confirmswitch": "",
       "filter": "Filtruj...",
       "match": {
         "abstract": "",
@@ -253,6 +277,8 @@
     },
     "tooltip": {
       "background": "Zmień podkład map",
+      "fullscreendisable": "",
+      "fullscreenenable": "",
       "home": "Pokaż całą mapę",
       "zoomin": "Przybliż",
       "zoomout": "Oddal"
@@ -263,7 +289,9 @@
     "window": {
       "close": "",
       "dock": "",
-      "undock": ""
+      "maximize": "",
+      "undock": "",
+      "unmaximize": ""
     }
   }
 }

@@ -4,10 +4,12 @@
     "appmenu": {
       "items": {
         "ExternalLink": "",
+        "AttributeTable": "",
         "DxfExport": "DXF'e Veri Aktar",
         "Editing": "Düzenleme",
         "Help": "Yardım",
         "IdentifyRegion": "Bölgeden Bilgi Al",
+        "LayerCatalog": "",
         "LayerTree": "Katmanlar & Gösterim",
         "Login": "Giriş",
         "Logout": "Çıkış",
@@ -20,6 +22,7 @@
         "Tools": "Harita Araçları",
         "Bookmark": ""
       },
+      "filter": "",
       "menulabel": "Harita & Araçlar"
     },
     "search": {
@@ -29,9 +32,22 @@
       "existinglayer": "Katman zaten haritada mevcut",
       "invisiblelayer": "Sonuç, görünmeyen bir katmanda bulunuyor.",
       "more": "Daha fazla...",
+      "providerselection": "",
       "search": "Ara",
       "searchall": "Bir yer ara ya da harita ekle...",
+      "searchinprogress": "",
+      "searchreset": "",
       "themes": "Temalar"
+    },
+    "attribtable": {
+      "commit": "",
+      "discard": "",
+      "layer": "",
+      "loadfailed": "",
+      "loading": "",
+      "reload": "",
+      "selectlayer": "",
+      "title": ""
     },
     "bgswitcher": {
       "nobg": "Arkaplan Yok"
@@ -40,6 +56,8 @@
       "add": "",
       "description": "",
       "manage": "",
+      "notloggedin": "",
+      "open": "",
       "openintab": "",
       "remove": "",
       "update": ""
@@ -111,6 +129,9 @@
       "clickhelpPoint": "",
       "clickhelpPolygon": "Bilgi alınacak alanı poligon çizerek belirleyiniz..."
     },
+    "layercatalog": {
+      "windowtitle": ""
+    },
     "layerinfo": {
       "abstract": "Özet",
       "attribution": "Özellikler",
@@ -147,7 +168,8 @@
       }
     },
     "map": {
-      "loading": "Yükleniyor..."
+      "loading": "Yükleniyor...",
+      "resetrotation": ""
     },
     "mapinfotooltip": {
       "elevation": "Yükseklik",
@@ -232,6 +254,7 @@
       "QRCodeLinkTitle": "Karekod",
       "directLinkTitle": "Doğrudan bağlantı yolu ile",
       "generatingpermalink": "Bağlantı yolu oluşturuluyor...",
+      "showpin": "",
       "socialIntro": "Favori sosyal ağınıza"
     },
     "themelayerslist": {
@@ -242,6 +265,7 @@
     "themeswitcher": {
       "addlayerstotheme": "Geçerli haritaya katmanları ekle",
       "addtotheme": "Geçerli temaya ekle",
+      "confirmswitch": "",
       "filter": "Filtre...",
       "match": {
         "abstract": "Özet",
@@ -253,6 +277,8 @@
     },
     "tooltip": {
       "background": "Arkaplanı değiştir",
+      "fullscreendisable": "",
+      "fullscreenenable": "",
       "home": "Haritanın tamamını göster",
       "zoomin": "Yaklaş",
       "zoomout": "Uzaklaş"
@@ -263,7 +289,9 @@
     "window": {
       "close": "Kapat",
       "dock": "Sabitle",
-      "undock": "Çöz"
+      "maximize": "",
+      "undock": "Çöz",
+      "unmaximize": ""
     }
   }
 }

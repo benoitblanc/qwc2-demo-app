@@ -4,10 +4,12 @@
     "appmenu": {
       "items": {
         "ExternalLink": "",
+        "AttributeTable": "",
         "DxfExport": "Экспорт в DXF",
         "Editing": "Правка",
         "Help": "Помощь",
         "IdentifyRegion": "Определить регион",
+        "LayerCatalog": "",
         "LayerTree": "Слои и легенда",
         "Login": "",
         "Logout": "",
@@ -20,6 +22,7 @@
         "Tools": "Средства картографии",
         "Bookmark": ""
       },
+      "filter": "",
       "menulabel": "Карта и инструменты"
     },
     "search": {
@@ -29,9 +32,22 @@
       "existinglayer": "",
       "invisiblelayer": "",
       "more": "Больше...",
+      "providerselection": "",
       "search": "Поиск",
       "searchall": "",
+      "searchinprogress": "",
+      "searchreset": "",
       "themes": ""
+    },
+    "attribtable": {
+      "commit": "",
+      "discard": "",
+      "layer": "",
+      "loadfailed": "",
+      "loading": "",
+      "reload": "",
+      "selectlayer": "",
+      "title": ""
     },
     "bgswitcher": {
       "nobg": "Фон отсутствует"
@@ -40,6 +56,8 @@
       "add": "",
       "description": "",
       "manage": "",
+      "notloggedin": "",
+      "open": "",
       "openintab": "",
       "remove": "",
       "update": ""
@@ -111,6 +129,9 @@
       "clickhelpPoint": "",
       "clickhelpPolygon": "Для получения информации обведите регион многоугольником..."
     },
+    "layercatalog": {
+      "windowtitle": ""
+    },
     "layerinfo": {
       "abstract": "Abstract",
       "attribution": "Автор",
@@ -147,7 +168,8 @@
       }
     },
     "map": {
-      "loading": "Загрузка..."
+      "loading": "Загрузка...",
+      "resetrotation": ""
     },
     "mapinfotooltip": {
       "elevation": "Высота над уровнем моря",
@@ -232,6 +254,7 @@
       "QRCodeLinkTitle": "QR-код",
       "directLinkTitle": "По прямой ссылке",
       "generatingpermalink": "Создание постоянной ссылки...",
+      "showpin": "",
       "socialIntro": "В Вашей любимой соцсети"
     },
     "themelayerslist": {
@@ -242,6 +265,7 @@
     "themeswitcher": {
       "addlayerstotheme": "",
       "addtotheme": "",
+      "confirmswitch": "",
       "filter": "Фильтр...",
       "match": {
         "abstract": "",
@@ -253,6 +277,8 @@
     },
     "tooltip": {
       "background": "Сменить фон",
+      "fullscreendisable": "",
+      "fullscreenenable": "",
       "home": "Показать всю карту",
       "zoomin": "Увеличить",
       "zoomout": "Уменьшить"
@@ -263,7 +289,9 @@
     "window": {
       "close": "",
       "dock": "",
-      "undock": ""
+      "maximize": "",
+      "undock": "",
+      "unmaximize": ""
     }
   }
 }

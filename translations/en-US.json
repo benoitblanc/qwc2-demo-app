@@ -4,10 +4,12 @@
     "appmenu": {
       "items": {
         "ExternalLink": "External Link",
+        "AttributeTable": "Attribute Table",
         "DxfExport": "DXF Export",
         "Editing": "Editing",
         "Help": "Help",
         "IdentifyRegion": "Identify Region",
+        "LayerCatalog": "Layer catalog",
         "LayerTree": "Layers & Legend",
         "Login": "Login",
         "Logout": "Logout",
@@ -20,6 +22,7 @@
         "Tools": "Map Tools",
         "Bookmark": "Bookmarks"
       },
+      "filter": "Filter menu...",
       "menulabel": "Map & Tools"
     },
     "search": {
@@ -29,9 +32,22 @@
       "existinglayer": "The layer already exists in the map",
       "invisiblelayer": "The result lies on a layer which is not visible.",
       "more": "More...",
+      "providerselection": "Search providers",
       "search": "Search",
       "searchall": "Search places or add maps...",
+      "searchinprogress": "Search in progress",
+      "searchreset": "Reset search",
       "themes": "Themes"
+    },
+    "attribtable": {
+      "commit": "Commit changed row",
+      "discard": "Discard changed row",
+      "layer": "Layer",
+      "loadfailed": "Failed to load the feature data",
+      "loading": "Loading...",
+      "reload": "Reload data",
+      "selectlayer": "Select layer...",
+      "title": "Attribute Table"
     },
     "bgswitcher": {
       "nobg": "No background"
@@ -40,6 +56,8 @@
       "add": "Add bookmark for current map",
       "description": "Description",
       "manage": "Manage your bookmarks",
+      "notloggedin": "You need to be logged in to store bookmarks",
+      "open": "Open bookmark",
       "openintab": "Open bookmark in a new tab",
       "remove": "Remove bookmark",
       "update": "Update bookmark"
@@ -111,6 +129,9 @@
       "clickhelpPoint": "Click a location to identify in the map...",
       "clickhelpPolygon": "Draw a polygon around the features to identify..."
     },
+    "layercatalog": {
+      "windowtitle": "Layer catalog"
+    },
     "layerinfo": {
       "abstract": "Abstract",
       "attribution": "Attribution",
@@ -147,7 +168,8 @@
       }
     },
     "map": {
-      "loading": "Loading..."
+      "loading": "Loading...",
+      "resetrotation": "Reset rotation"
     },
     "mapinfotooltip": {
       "elevation": "Elevation",
@@ -232,6 +254,7 @@
       "QRCodeLinkTitle": "QR Code",
       "directLinkTitle": "Via a direct link",
       "generatingpermalink": "Generating permalink...",
+      "showpin": "Show pin",
       "socialIntro": "In your favourite social network"
     },
     "themelayerslist": {
@@ -242,6 +265,7 @@
     "themeswitcher": {
       "addlayerstotheme": "Add layers to current map",
       "addtotheme": "Add to current theme",
+      "confirmswitch": "Non-theme layers will be lost when switching theme. Proceed?",
       "filter": "Filter...",
       "match": {
         "abstract": "Abstract",
@@ -253,6 +277,8 @@
     },
     "tooltip": {
       "background": "Switch background",
+      "fullscreendisable": "Disable full screen mode",
+      "fullscreenenable": "Enable full screen mode",
       "home": "Show entire map",
       "zoomin": "Zoom in",
       "zoomout": "Zoom out"
@@ -263,7 +289,9 @@
     "window": {
       "close": "Close",
       "dock": "Dock",
-      "undock": "Undock"
+      "maximize": "Maximize",
+      "undock": "Undock",
+      "unmaximize": "Restore"
     }
   }
 }

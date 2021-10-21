@@ -4,10 +4,12 @@
     "appmenu": {
       "items": {
         "ExternalLink": "",
+        "AttributeTable": "",
         "DxfExport": "DXF Export",
         "Editing": "Redigera",
         "Help": "Hjälp",
         "IdentifyRegion": "Identifiera med område",
+        "LayerCatalog": "",
         "LayerTree": "Lager & teckenförklaring",
         "Login": "Logga in",
         "Logout": "Logga ut",
@@ -20,6 +22,7 @@
         "Tools": "Kartverktyg",
         "Bookmark": ""
       },
+      "filter": "",
       "menulabel": "Karta & Verktyg"
     },
     "search": {
@@ -29,9 +32,22 @@
       "existinglayer": "",
       "invisiblelayer": "",
       "more": "Mer",
+      "providerselection": "",
       "search": "",
       "searchall": "",
+      "searchinprogress": "",
+      "searchreset": "",
       "themes": ""
+    },
+    "attribtable": {
+      "commit": "",
+      "discard": "",
+      "layer": "",
+      "loadfailed": "",
+      "loading": "",
+      "reload": "",
+      "selectlayer": "",
+      "title": ""
     },
     "bgswitcher": {
       "nobg": "Ingen bakgrund"
@@ -40,6 +56,8 @@
       "add": "",
       "description": "",
       "manage": "",
+      "notloggedin": "",
+      "open": "",
       "openintab": "",
       "remove": "",
       "update": ""
@@ -111,6 +129,9 @@
       "clickhelpPoint": "",
       "clickhelpPolygon": "Rita en polygon runt objektn som ska identifieras"
     },
+    "layercatalog": {
+      "windowtitle": ""
+    },
     "layerinfo": {
       "abstract": "Sammanfattning",
       "attribution": "Källa",
@@ -147,7 +168,8 @@
       }
     },
     "map": {
-      "loading": "Laddar..."
+      "loading": "Laddar...",
+      "resetrotation": ""
     },
     "mapinfotooltip": {
       "elevation": "Höjd",
@@ -232,6 +254,7 @@
       "QRCodeLinkTitle": "QR kod",
       "directLinkTitle": "Via en direktlänk",
       "generatingpermalink": "Genererar permalink...",
+      "showpin": "",
       "socialIntro": "I ditt favoritnätverk"
     },
     "themelayerslist": {
@@ -242,6 +265,7 @@
     "themeswitcher": {
       "addlayerstotheme": "",
       "addtotheme": "Lägg till aktuellt tema",
+      "confirmswitch": "",
       "filter": "Filtrera...",
       "match": {
         "abstract": "",
@@ -253,6 +277,8 @@
     },
     "tooltip": {
       "background": "Byt bakgrund",
+      "fullscreendisable": "",
+      "fullscreenenable": "",
       "home": "Visa hela kartan",
       "zoomin": "Zooma in",
       "zoomout": "Zooma ut"
@@ -263,7 +289,9 @@
     "window": {
       "close": "",
       "dock": "",
-      "undock": ""
+      "maximize": "",
+      "undock": "",
+      "unmaximize": ""
     }
   }
 }

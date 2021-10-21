@@ -1,7 +1,9 @@
 {
+  "searchServiceUrl": "http://localhost:5011/",
+  "searchDataServiceUrl": "http://localhost:5011/geom/",
   "editServiceUrl": "http://localhost:5012/",
   "mapInfoService":  "http://localhost:5016/",
-  "permalinkServiceUrl": "http://localhost:5018/",
+  "permalinkServiceUrl": "http://localhost:5001/",
   "elevationServiceUrl": "http://localhost:5002/",
   "featureReportService": "http://localhost:5020/",
   "urlPositionFormat": "centerAndZoom",
@@ -9,7 +11,7 @@
   "omitUrlParameterUpdates": false,
   "preserveExtentOnThemeSwitch": true,
   "preserveBackgroundOnThemeSwitch": true,
-  "preserveNonThemeLayersOnThemeSwitch": true,
+  "preserveNonThemeLayersOnThemeSwitch": false,
   "allowReorderingLayers": true,
   "preventSplittingGroupsWhenReordering": false,
   "allowLayerTreeSeparators": false,
@@ -17,12 +19,12 @@
   "globallyDisableDockableDialogs": false,
   "searchThemes": true,
   "allowAddingOtherThemes": true,
-  "allowFractionalZoom": true,
+  "allowFractionalZoom": false,
   "localeAwareNumbers": false,
   "identifyTool": "Identify",
   "wmsDpi": 96,
   "wmsHidpi": false,
-  "qgisServerVersion": 2,
+  "qgisServerVersion": 3,
   "defaultFeatureStyle": {
     "strokeColor": [0, 0, 255, 1],
     "strokeWidth": 1,
@@ -35,7 +37,7 @@
   },
   "importLayerUrlPresets": [
       {"label": "Swisstopo WMTS", "value": "https://wmts10.geo.admin.ch/EPSG/2056/1.0.0/WMTSCapabilities.xml"},
-      {"label": "Test", "value": "https://ycas.ch/130_alkis_nrw.xml"}
+      {"label": "Test", "value": "https://ycas.ch/qwc/catalog.json"}
   ],
   "projections": [
     {
@@ -116,8 +118,9 @@
               "menuItems": [
                 {"key": "ThemeSwitcher", "icon": "themes"},
                 {"key": "LayerTree", "icon": "layers"},
+                {"key": "LayerCatalog", "icon": "catalog"},
                 {"key": "Share", "icon": "share"},
-                {"key": "Bookmark", "icon": "bookmark", "requireAuth": true},
+                {"key": "Bookmark", "icon": "bookmark"},
                 {"key": "Tools", "icon": "tools", "subitems": [
                   {"key": "Identify", "icon": "identify_region", "mode": "Region"},
                   {"key": "Measure", "icon": "measure"},
@@ -138,6 +141,7 @@
                 "showProvidersInPlaceholder": false
               },
               "appMenuClearsTask": true,
+              "appMenuFilterField": true,
               "appMenuVisibleOnStartup": false
             }
         },
@@ -343,13 +347,15 @@
               "menuItems": [
                 {"key": "ThemeSwitcher", "icon": "themes"},
                 {"key": "LayerTree", "icon": "layers"},
+                {"key": "LayerCatalog", "icon": "catalog"},
                 {"key": "Share", "icon": "share"},
-                {"key": "Bookmark", "icon": "bookmark", "requireAuth": true},
+                {"key": "Bookmark", "icon": "bookmark"},
                 {"key": "Tools", "icon": "tools", "subitems": [
                   {"key": "Identify", "icon": "identify_region", "mode": "Region"},
                   {"key": "Measure", "icon": "measure"},
                   {"key": "Redlining", "icon": "draw"},
                   {"key": "Editing", "icon": "editing"},
+                  {"key": "AttributeTable", "icon": "editing"},
                   {"key": "DxfExport", "icon": "dxfexport"},
                   {"key": "RasterExport", "icon": "rasterexport"}
                 ]},
@@ -372,6 +378,7 @@
                 "showProvidersInPlaceholder": false
               },
               "appMenuClearsTask": true,
+              "appMenuFilterField": true,
               "appMenuVisibleOnStartup": false,
               "logoUrl": "/"
             }
@@ -404,7 +411,7 @@
             "allowMapTips": true,
             "allowCompare": true,
             "allowImport": true,
-            "groupTogglesSublayers": true,
+            "groupTogglesSublayers": false,
             "grayUnchecked": false,
             "layerInfoWindowSize": {"width": 480, "height": 400},
             "bboxDependentLegend": true,
@@ -462,7 +469,15 @@
           }
         },
         {
-          "name": "DxfExport"
+          "name": "DxfExport",
+          "cfg": {
+              "serviceUrl": "http://127.0.0.1:8001/ows/dxf_geobau",
+              "layerOptions": [
+                  {"label": "Geobau", "layers": "dxfgeobau"},
+                  {"label": "Geobau + Höhenkurven", "layers": "dxfgeobau,hoehenkurven"}
+              ],
+              "formatOptions": "MODE:SYMBOLLAYERSYMBOLOGY;SCALE:500;NO_MTEXT:TEXT"
+          }
         },
         {
           "name": "RasterExport",
@@ -509,7 +524,10 @@
           "name": "ScratchDrawing"
       },
       {
-        "name": "Bookmark"
+          "name": "Bookmark"
+      },
+      {
+          "name": "AttributeTable"
       }
       ]
   }
