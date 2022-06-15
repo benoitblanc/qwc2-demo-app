@@ -7,6 +7,7 @@
         "AttributeTable": "",
         "DxfExport": "Экспорт в DXF",
         "Editing": "Правка",
+        "FeatureForm": "",
         "Help": "Помощь",
         "IdentifyRegion": "Определить регион",
         "LayerCatalog": "",
@@ -14,19 +15,34 @@
         "Login": "",
         "Logout": "",
         "Measure": "Измерения",
+        "MeasureLineString": "измерить линию",
+        "MeasurePolygon": "измерить многоугольник",
         "Print": "Печать",
         "RasterExport": "Экспорт в растровый Формат бумаги",
         "Redlining": "Обводка",
         "Share": "Поделиться ссылкой",
         "ThemeSwitcher": "Тема",
         "Tools": "Средства картографии",
-        "Bookmark": ""
+        "Bookmark": "",
+        "TimeManager": ""
       },
       "filter": "",
       "menulabel": "Карта и инструменты"
     },
     "search": {
       "coordinates": "",
+      "nominatim": {
+        "amenity": "",
+        "boundary": "",
+        "building": "",
+        "landuse": "",
+        "leisure": "",
+        "place": "",
+        "highway": "",
+        "natural": "",
+        "railway": "",
+        "tourism": ""
+      },
       "all": "Всё",
       "enablelayer": "",
       "existinglayer": "",
@@ -40,26 +56,41 @@
       "themes": ""
     },
     "attribtable": {
+      "addfeature": "",
       "commit": "",
+      "delete": "",
+      "deletefailed": "",
+      "deletefeatures": "",
+      "deleting": "",
       "discard": "",
+      "formeditmode": "",
+      "geomnoadd": "",
       "layer": "",
       "loadfailed": "",
       "loading": "",
+      "nodelete": "",
+      "nogeomnoform": "",
+      "pleasereload": "",
       "reload": "",
       "selectlayer": "",
-      "title": ""
+      "title": "",
+      "zoomtoselection": ""
     },
     "bgswitcher": {
       "nobg": "Фон отсутствует"
     },
     "bookmark": {
       "add": "",
+      "addfailed": "",
       "description": "",
+      "lastUpdate": "",
       "manage": "",
       "notloggedin": "",
       "open": "",
-      "openintab": "",
+      "openTab": "",
       "remove": "",
+      "removefailed": "",
+      "savefailed": "",
       "update": ""
     },
     "bottombar": {
@@ -78,21 +109,33 @@
       "symbologyscale": "Масштаб символики:"
     },
     "editing": {
+      "add": "",
+      "attrtable": "",
       "canceldelete": "Не удалять",
+      "capturedpicture": "",
       "clearpicture": "",
       "commit": "Подтвердить изменения",
       "delete": "Удалить",
       "discard": "Отменить изменения",
       "draw": "Нарисовать",
       "feature": "",
+      "geomreadonly": "",
       "maximize": "Развернуть",
       "minimize": "Свернуть",
+      "nocompatpick": "",
       "noeditablelayers": "Отсутствуют доступные для редактирования слои.",
       "pick": "Выбрать",
+      "pickdrawfeature": "",
       "reallydelete": "Удалить",
       "relationcommitfailed": "",
       "select": "Выберите...",
       "takepicture": ""
+    },
+    "featureform": {
+      "feature": "",
+      "noresults": "",
+      "querying": "",
+      "title": ""
     },
     "fileselector": {
       "placeholder": "Выберите файл..."
@@ -115,6 +158,7 @@
       "title": "Информация об объекте"
     },
     "importlayer": {
+      "addfailed": "",
       "addlayer": "Добавить слой",
       "connect": "Подключиться",
       "filter": "Фильтровать...",
@@ -180,6 +224,9 @@
       "bearingLabel": "Пеленг",
       "lengthLabel": "Длина",
       "pointLabel": "Позиция"
+    },
+    "navbar": {
+      "perpage": ""
     },
     "print": {
       "grid": "Сетка:",
@@ -253,9 +300,13 @@
     "share": {
       "QRCodeLinkTitle": "QR-код",
       "directLinkTitle": "По прямой ссылке",
-      "generatingpermalink": "Создание постоянной ссылки...",
+      "refresh": "",
       "showpin": "",
       "socialIntro": "В Вашей любимой соцсети"
+    },
+    "snapping": {
+      "loading": "",
+      "snappingenabled": ""
     },
     "themelayerslist": {
       "addlayer": "",
@@ -274,6 +325,31 @@
       },
       "openintab": "",
       "restrictedthemeinfo": ""
+    },
+    "timemanager": {
+      "animationinterval": "",
+      "markers": "",
+      "notemporaldata": "",
+      "play": "",
+      "playrev": "",
+      "rewind": "",
+      "stepback": "",
+      "stepfwd": "",
+      "stepsize": "",
+      "stop": "",
+      "title": "",
+      "toggle": "",
+      "unit": {
+        "century": "",
+        "days": "",
+        "decade": "",
+        "hours": "",
+        "milliseconds": "",
+        "minutes": "",
+        "months": "",
+        "seconds": "",
+        "years": ""
+      }
     },
     "tooltip": {
       "background": "Сменить фон",

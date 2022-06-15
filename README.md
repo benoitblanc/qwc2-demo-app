@@ -7,11 +7,13 @@ This repository contains a sample QWC2 application.
 
 Some examples of QWC2 production deployments:
 
+- [QWC2 demo server](http://qwc2.sourcepole.ch)
 - [GeoViewer Kanton Glarus](https://map.geo.gl.ch/)
 - [Web GIS Client Kanton Solothurn](https://geo.so.ch/map/)
 
 ## [Quick start](https://github.com/qgis/qwc2-demo-app/blob/master/doc/QWC2_Documentation.md#quick-start)
 ## [Documentation](https://github.com/qgis/qwc2-demo-app/blob/master/doc/QWC2_Documentation.md)
+## [QWC2 extended with microservices](https://github.com/qwc-services/qwc-docker)
 ## [Upgrade notes](https://github.com/qgis/qwc2-demo-app/blob/master/UpgradeNotes.md)
 ## [Mailing list](https://lists.osgeo.org/mailman/listinfo/qgis-qwc2)
 
@@ -24,17 +26,18 @@ Some examples of QWC2 production deployments:
 - Theme switcher
 - Arbitrarily configurable search providers
 - Layer tree
-  * Enable and disable layers and groups
-  * Change layer opacity
-  * Change layer order
+  * Toggle layers and groups
+  * Change layer order and opacity
+  - Import external WMS/WFS/WMTS/GeoJSON/KML layers
 - Feature info
 - Compare layers
-- Import external WMS/WFS/KML layers
 - Share permalinks
+- Bookmarks
 - Measuring tools
 - Height profile
 - Redlining
 - Editing
+- Attribute table
 - DXF export
 - Raster export
 - Printing

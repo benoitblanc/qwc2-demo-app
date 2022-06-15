@@ -7,6 +7,7 @@
         "AttributeTable": "",
         "DxfExport": "DXF Export",
         "Editing": "Redigera",
+        "FeatureForm": "",
         "Help": "Hjälp",
         "IdentifyRegion": "Identifiera med område",
         "LayerCatalog": "",
@@ -14,19 +15,34 @@
         "Login": "Logga in",
         "Logout": "Logga ut",
         "Measure": "Mät",
+        "MeasureLineString": "Mäta en linje",
+        "MeasurePolygon": "Mäta en polygon",
         "Print": "Skriv ut",
         "RasterExport": "Raster Export",
         "Redlining": "Rita",
         "Share": "Dela länk",
         "ThemeSwitcher": "Tema",
         "Tools": "Kartverktyg",
-        "Bookmark": ""
+        "Bookmark": "",
+        "TimeManager": ""
       },
       "filter": "",
       "menulabel": "Karta & Verktyg"
     },
     "search": {
       "coordinates": "Koordinater",
+      "nominatim": {
+        "amenity": "",
+        "boundary": "",
+        "building": "",
+        "landuse": "",
+        "leisure": "",
+        "place": "",
+        "highway": "",
+        "natural": "",
+        "railway": "",
+        "tourism": ""
+      },
       "all": "",
       "enablelayer": "",
       "existinglayer": "",
@@ -40,26 +56,41 @@
       "themes": ""
     },
     "attribtable": {
+      "addfeature": "",
       "commit": "",
+      "delete": "",
+      "deletefailed": "",
+      "deletefeatures": "",
+      "deleting": "",
       "discard": "",
+      "formeditmode": "",
+      "geomnoadd": "",
       "layer": "",
       "loadfailed": "",
       "loading": "",
+      "nodelete": "",
+      "nogeomnoform": "",
+      "pleasereload": "",
       "reload": "",
       "selectlayer": "",
-      "title": ""
+      "title": "",
+      "zoomtoselection": ""
     },
     "bgswitcher": {
       "nobg": "Ingen bakgrund"
     },
     "bookmark": {
       "add": "",
+      "addfailed": "",
       "description": "",
+      "lastUpdate": "",
       "manage": "",
       "notloggedin": "",
       "open": "",
-      "openintab": "",
+      "openTab": "",
       "remove": "",
+      "removefailed": "",
+      "savefailed": "",
       "update": ""
     },
     "bottombar": {
@@ -78,21 +109,33 @@
       "symbologyscale": "Symbolskala:"
     },
     "editing": {
+      "add": "",
+      "attrtable": "",
       "canceldelete": "Radera inte",
+      "capturedpicture": "",
       "clearpicture": "",
       "commit": "Skicka",
       "delete": "Radera",
       "discard": "Förkasta",
       "draw": "Rita",
       "feature": "Objekt",
+      "geomreadonly": "",
       "maximize": "Maximera",
       "minimize": "Minimera",
+      "nocompatpick": "",
       "noeditablelayers": "Inga redigerbara lager",
       "pick": "Välj",
+      "pickdrawfeature": "",
       "reallydelete": "Verkligen radera",
       "relationcommitfailed": "",
       "select": "Välj",
       "takepicture": ""
+    },
+    "featureform": {
+      "feature": "",
+      "noresults": "",
+      "querying": "",
+      "title": ""
     },
     "fileselector": {
       "placeholder": "Välj fil..."
@@ -115,6 +158,7 @@
       "title": "Objektinformation"
     },
     "importlayer": {
+      "addfailed": "",
       "addlayer": "Lägg till lager",
       "connect": "Anslut",
       "filter": "Filter...",
@@ -180,6 +224,9 @@
       "bearingLabel": "Bäring",
       "lengthLabel": "Längd",
       "pointLabel": "Position"
+    },
+    "navbar": {
+      "perpage": ""
     },
     "print": {
       "grid": "Rutnät",
@@ -253,9 +300,13 @@
     "share": {
       "QRCodeLinkTitle": "QR kod",
       "directLinkTitle": "Via en direktlänk",
-      "generatingpermalink": "Genererar permalink...",
+      "refresh": "",
       "showpin": "",
       "socialIntro": "I ditt favoritnätverk"
+    },
+    "snapping": {
+      "loading": "",
+      "snappingenabled": ""
     },
     "themelayerslist": {
       "addlayer": "",
@@ -274,6 +325,31 @@
       },
       "openintab": "",
       "restrictedthemeinfo": ""
+    },
+    "timemanager": {
+      "animationinterval": "",
+      "markers": "",
+      "notemporaldata": "",
+      "play": "",
+      "playrev": "",
+      "rewind": "",
+      "stepback": "",
+      "stepfwd": "",
+      "stepsize": "",
+      "stop": "",
+      "title": "",
+      "toggle": "",
+      "unit": {
+        "century": "",
+        "days": "",
+        "decade": "",
+        "hours": "",
+        "milliseconds": "",
+        "minutes": "",
+        "months": "",
+        "seconds": "",
+        "years": ""
+      }
     },
     "tooltip": {
       "background": "Byt bakgrund",

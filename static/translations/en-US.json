@@ -7,6 +7,7 @@
         "AttributeTable": "Attribute Table",
         "DxfExport": "DXF Export",
         "Editing": "Editing",
+        "FeatureForm": "Feature Form",
         "Help": "Help",
         "IdentifyRegion": "Identify Region",
         "LayerCatalog": "Layer catalog",
@@ -14,19 +15,34 @@
         "Login": "Login",
         "Logout": "Logout",
         "Measure": "Measure",
+        "MeasureLineString": "Measure a line",
+        "MeasurePolygon": "Measure a polygon",
         "Print": "Print",
         "RasterExport": "Raster Export",
         "Redlining": "Redlining",
         "Share": "Share Link",
         "ThemeSwitcher": "Theme",
         "Tools": "Map Tools",
-        "Bookmark": "Bookmarks"
+        "Bookmark": "Bookmarks",
+        "TimeManager": "Time Manager"
       },
       "filter": "Filter menu...",
       "menulabel": "Map & Tools"
     },
     "search": {
       "coordinates": "Coordinates",
+      "nominatim": {
+        "amenity": "Amenity",
+        "boundary": "Boundary",
+        "building": "Building",
+        "landuse": "Land use",
+        "leisure": "Leisure",
+        "place": "Place",
+        "highway": "Highway",
+        "natural": "Natural",
+        "railway": "Railway",
+        "tourism": "Tourism"
+      },
       "all": "All",
       "enablelayer": "Enable layer",
       "existinglayer": "The layer already exists in the map",
@@ -40,26 +56,41 @@
       "themes": "Themes"
     },
     "attribtable": {
+      "addfeature": "Add feature",
       "commit": "Commit changed row",
+      "delete": "Delete",
+      "deletefailed": "One or more features could not be deleted",
+      "deletefeatures": "Delete selected features",
+      "deleting": "Deleting features...",
       "discard": "Discard changed row",
+      "formeditmode": "Open the edit form for the selected feature",
+      "geomnoadd": "Please use the edit form for adding new features to this layer",
       "layer": "Layer",
       "loadfailed": "Failed to load the feature data",
       "loading": "Loading...",
-      "reload": "Reload data",
+      "nodelete": "Don't delete",
+      "nogeomnoform": "The edit form is not available for geometryless layers",
+      "pleasereload": "Press 'Reload' to load the attribute table...",
+      "reload": "Reload",
       "selectlayer": "Select layer...",
-      "title": "Attribute Table"
+      "title": "Attribute Table",
+      "zoomtoselection": "Zoom to selected features"
     },
     "bgswitcher": {
       "nobg": "No background"
     },
     "bookmark": {
-      "add": "Add bookmark for current map",
+      "add": "Create new bookmark",
+      "addfailed": "Failed to create bookmark",
       "description": "Description",
-      "manage": "Manage your bookmarks",
+      "lastUpdate": "Last saved",
+      "manage": "Manage bookmarks",
       "notloggedin": "You need to be logged in to store bookmarks",
-      "open": "Open bookmark",
-      "openintab": "Open bookmark in a new tab",
+      "open": "Open bookmark in current tab",
+      "openTab": "Open bookmark in tab",
       "remove": "Remove bookmark",
+      "removefailed": "Failed to remove bookmark",
+      "savefailed": "Failed to update bookmark",
       "update": "Update bookmark"
     },
     "bottombar": {
@@ -78,21 +109,33 @@
       "symbologyscale": "Symbology scale"
     },
     "editing": {
+      "add": "Add",
+      "attrtable": "Table",
       "canceldelete": "Don't delete",
+      "capturedpicture": "Captured picture",
       "clearpicture": "Clear",
       "commit": "Commit",
       "delete": "Delete",
       "discard": "Discard",
       "draw": "Draw",
       "feature": "Feature",
+      "geomreadonly": "The geometry contains non-zero Z values and is therefore read only.",
       "maximize": "Maximize",
       "minimize": "Minimize",
+      "nocompatpick": "No compatible geometry found",
       "noeditablelayers": "No editable layers.",
       "pick": "Pick",
+      "pickdrawfeature": "Clone existing geometry",
       "reallydelete": "Delete",
       "relationcommitfailed": "Some relation values could not be committed, check the icon tooltips for details",
       "select": "Select",
       "takepicture": "Take picture"
+    },
+    "featureform": {
+      "feature": "Feature",
+      "noresults": "No results",
+      "querying": "Querying...",
+      "title": "Feature form"
     },
     "fileselector": {
       "placeholder": "Select file..."
@@ -115,6 +158,7 @@
       "title": "Feature Info"
     },
     "importlayer": {
+      "addfailed": "Failed to add layer.",
       "addlayer": "Add layer",
       "connect": "Connect",
       "filter": "Filter...",
@@ -180,6 +224,9 @@
       "bearingLabel": "Bearing",
       "lengthLabel": "Length",
       "pointLabel": "Position"
+    },
+    "navbar": {
+      "perpage": "per page"
     },
     "print": {
       "grid": "Grid",
@@ -253,9 +300,13 @@
     "share": {
       "QRCodeLinkTitle": "QR Code",
       "directLinkTitle": "Via a direct link",
-      "generatingpermalink": "Generating permalink...",
+      "refresh": "Generate permalink",
       "showpin": "Show pin",
       "socialIntro": "In your favourite social network"
+    },
+    "snapping": {
+      "loading": "Loading snapping geometries...",
+      "snappingenabled": "Snapping enabled"
     },
     "themelayerslist": {
       "addlayer": "Add layer",
@@ -274,6 +325,31 @@
       },
       "openintab": "Open in Tab",
       "restrictedthemeinfo": "You are not permitted to view the theme or not logged in"
+    },
+    "timemanager": {
+      "animationinterval": "Animation interval",
+      "markers": "Markers",
+      "notemporaldata": "No temporal layers are visible in the map.",
+      "play": "Play",
+      "playrev": "Play backwards",
+      "rewind": "Rewind",
+      "stepback": "Step back",
+      "stepfwd": "Step forward",
+      "stepsize": "Step size",
+      "stop": "Stop",
+      "title": "Time manager",
+      "toggle": "Temporal navigation",
+      "unit": {
+        "century": "centuries",
+        "days": "days",
+        "decade": "decades",
+        "hours": "hours",
+        "milliseconds": "milliseconds",
+        "minutes": "minutes",
+        "months": "months",
+        "seconds": "seconds",
+        "years": "years"
+      }
     },
     "tooltip": {
       "background": "Switch background",

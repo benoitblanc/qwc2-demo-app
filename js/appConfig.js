@@ -17,6 +17,7 @@ import OverviewSupport from 'qwc2/plugins/map/OverviewSupport';
 import RedliningSupport from 'qwc2/plugins/map/RedliningSupport';
 import ScaleBarSupport from 'qwc2/plugins/map/ScaleBarSupport';
 import SelectionSupport from 'qwc2/plugins/map/SelectionSupport';
+import SnappingSupport from 'qwc2/plugins/map/SnappingSupport';
 import HomeButtonPlugin from 'qwc2/plugins/HomeButton';
 import LocateButtonPlugin from 'qwc2/plugins/LocateButton';
 import {ZoomInPlugin, ZoomOutPlugin} from 'qwc2/plugins/ZoomButtons';
@@ -51,10 +52,12 @@ import ScratchDrawingPlugin from 'qwc2/plugins/ScratchDrawing';
 import AuthenticationPlugin from 'qwc2/plugins/Authentication';
 import BookmarkPlugin from 'qwc2/plugins/Bookmark';
 import AttributeTablePlugin from 'qwc2/plugins/AttributeTable';
+import TimeManagerPlugin from 'qwc2/plugins/TimeManager';
+import FeatureFormPlugin from 'qwc2/plugins/FeatureForm';
 import APIPlugin from 'qwc2/plugins/API';
 import {customAttributeCalculator} from './CustomAttributeCalculator';
 
-import defaultLocaleData from '../translations/en-US.json';
+import defaultLocaleData from '../static/translations/en-US.json';
 
 export default {
     defaultLocaleData: defaultLocaleData,
@@ -71,7 +74,8 @@ export default {
                 OverviewSupport: OverviewSupport,
                 RedliningSupport: RedliningSupport,
                 ScaleBarSupport: ScaleBarSupport,
-                SelectionSupport: SelectionSupport
+                SelectionSupport: SelectionSupport,
+                SnappingSupport: SnappingSupport
             }),
             HomeButtonPlugin: HomeButtonPlugin,
             LocateButtonPlugin: LocateButtonPlugin,
@@ -112,7 +116,9 @@ export default {
             AuthenticationPlugin: AuthenticationPlugin,
             BookmarkPlugin: BookmarkPlugin,
             AttributeTablePlugin: AttributeTablePlugin(),
-            APIPlugin: APIPlugin
+            APIPlugin: APIPlugin,
+            TimeManagerPlugin: TimeManagerPlugin,
+            FeatureFormPlugin: FeatureFormPlugin()
         },
         cfg: {
             IdentifyPlugin: {

@@ -1,5 +1,5 @@
 {
-  "locale": "de-DE",
+  "locale": "de-CH",
   "messages": {
     "appmenu": {
       "items": {
@@ -7,6 +7,7 @@
         "AttributeTable": "Attributtabelle",
         "DxfExport": "DXF-Export",
         "Editing": "Editieren",
+        "FeatureForm": "Objektformular",
         "Help": "Hilfe",
         "IdentifyRegion": "Region abfragen",
         "LayerCatalog": "Ebenenkatalog",
@@ -14,19 +15,34 @@
         "Login": "Anmelden",
         "Logout": "Abmelden",
         "Measure": "Messen",
+        "MeasureLineString": "Messen linie",
+        "MeasurePolygon": "Messen polygon",
         "Print": "Drucken",
         "RasterExport": "Raster-Export",
         "Redlining": "Zeichnen",
         "Share": "Teilen",
         "ThemeSwitcher": "Themen",
         "Tools": "Werkzeuge",
-        "Bookmark": "Lesezeichen"
+        "Bookmark": "Lesezeichen",
+        "TimeManager": "Zeitleiste"
       },
       "filter": "Menü filtern...",
       "menulabel": "Karte & Werkzeuge"
     },
     "search": {
       "coordinates": "",
+      "nominatim": {
+        "amenity": "Annehmlichkeit",
+        "boundary": "Grenze",
+        "building": "Gebäude",
+        "landuse": "Landnutzung",
+        "leisure": "Freizeit",
+        "place": "Ort",
+        "highway": "Autobahn",
+        "natural": "Natur",
+        "railway": "Eisenbahn",
+        "tourism": "Tourismus"
+      },
       "all": "Alle",
       "enablelayer": "Ebene einschalten",
       "existinglayer": "Die Ebene existiert bereits in der Karte",
@@ -40,27 +56,42 @@
       "themes": "Themen"
     },
     "attribtable": {
+      "addfeature": "Objekt hinzufügen",
       "commit": "Geänderte Zeile speichern",
+      "delete": "Löschen",
+      "deletefailed": "Ein oder mehrere Objekte konnten nicht gelöscht werden",
+      "deletefeatures": "Ausgewählte Objekte löschen",
+      "deleting": "Objekte werden gelöscht",
       "discard": "Geänderte Zeile zurücksetzen",
+      "formeditmode": "Ausgewähltes Objekt in der Formularansicht editieren",
+      "geomnoadd": "Bitte die Formularansicht verwenden, um neue Objekte für diese Ebene zu erstellen",
       "layer": "Ebene",
       "loadfailed": "Die Objektdaten konnten nicht geladen werden",
       "loading": "Laden...",
-      "reload": "Daten neu laden",
+      "nodelete": "Nicht löschen",
+      "nogeomnoform": "Die Formularansicht ist für geometrielose Ebenen nicht verfügbar",
+      "pleasereload": "Auf 'Neu laden' drücken, um die Attributtabelle zu laden...",
+      "reload": "Neu laden",
       "selectlayer": "Ebene auswählen...",
-      "title": "Attributtabelle"
+      "title": "Attributtabelle",
+      "zoomtoselection": "Auf ausgewählte Objekte zoomen"
     },
     "bgswitcher": {
       "nobg": "Kein Hintergrund"
     },
     "bookmark": {
-      "add": "Hinzufügen",
+      "add": "Neues Lesezeichen anlegen",
+      "addfailed": "Lesezeichen konnte nicht angelegt werden",
       "description": "Beschreibung",
-      "manage": "Verwalten",
+      "lastUpdate": "Zuletzt gespeichert",
+      "manage": "Lesezeichen verwalten",
       "notloggedin": "Sie müssen angemeldet sein, um Lesezeichen zu verwenden",
-      "open": "Öffnen",
-      "openintab": "In Tab öffnen",
-      "remove": "Entfernen",
-      "update": "Aktualisieren"
+      "open": "In aktuellem Fenster öffnen",
+      "openTab": "In neuem Fenster öffnen",
+      "remove": "Lesezeichen entfernen",
+      "removefailed": "Lesezeichen konnte nicht entfernt werden",
+      "savefailed": "Lesezeichen konnte nicht aktualisiert werden",
+      "update": "Lesezeichen aktualisieren"
     },
     "bottombar": {
       "mousepos_label": "Koordinaten",
@@ -69,30 +100,42 @@
       "viewertitle_label": ""
     },
     "copybtn": {
-      "click_to_copy": "Kopieren in Zwischenablage",
+      "click_to_copy": "In Zwischenablage kopieren",
       "copied": "Kopiert"
     },
     "dxfexport": {
       "layers": "Ebenen",
-      "selectinfo": "Rechteck aufziehen um die zu exportierende Region",
+      "selectinfo": "Rechteck um die zu exportierende Region aufziehen",
       "symbologyscale": "Darstellungsmassstab"
     },
     "editing": {
+      "add": "Hinzufügen",
+      "attrtable": "Tabelle",
       "canceldelete": "Abbrechen",
+      "capturedpicture": "Aufgenommenes Bild",
       "clearpicture": "Zurücksetzen",
       "commit": "Speichern",
       "delete": "Löschen",
       "discard": "Abbrechen",
       "draw": "Zeichnen",
       "feature": "Objekt",
+      "geomreadonly": "Die Geometrie enthält Z-Werte ungleich Null und kann daher nicht veränderbar.",
       "maximize": "Maximieren",
       "minimize": "Minimieren",
+      "nocompatpick": "Keine kompatible Geometrie",
       "noeditablelayers": "Keine editierbare Ebenen.",
       "pick": "Auswählen",
+      "pickdrawfeature": "Existierende Geometrie kopieren",
       "reallydelete": "Löschen",
-      "relationcommitfailed": "Einige Relationen konnten nicht gespeichert werden, siehe Tooltips der Ikonen für mehr Details.",
+      "relationcommitfailed": "Einige Relationen konnten nicht gespeichert werden, siehe Tooltips der Icons für mehr Details.",
       "select": "Auswählen",
       "takepicture": "Bild schiessen"
+    },
+    "featureform": {
+      "feature": "Objekt",
+      "noresults": "Keine Ergebnisse",
+      "querying": "Objekte werden abgefragt...",
+      "title": "Objektformular"
     },
     "fileselector": {
       "placeholder": "Datei auswählen"
@@ -115,6 +158,7 @@
       "title": "Objektinformationen"
     },
     "importlayer": {
+      "addfailed": "Die Ebene konnte nicht hinzugefügt werden",
       "addlayer": "Ebene hinzufügen",
       "connect": "Verbinden",
       "filter": "Filter...",
@@ -153,7 +197,7 @@
       "separatortooltip": "Separator hinzufügen",
       "transparency": "Transparenz",
       "visiblefilter": "Unsichtbare Ebenen filtern",
-      "zoomtolayer": "Auf Layer zoomen"
+      "zoomtolayer": "Auf den Layer zoomen"
     },
     "locate": {
       "feetUnit": "Fuss",
@@ -181,6 +225,9 @@
       "lengthLabel": "Länge",
       "pointLabel": "Position"
     },
+    "navbar": {
+      "perpage": "pro Seite"
+    },
     "print": {
       "grid": "Gitter",
       "layout": "Format",
@@ -199,7 +246,7 @@
     "rasterexport": {
       "format": "Format:",
       "resolution": "Auflösung",
-      "selectinfo": "Rechteck aufziehen um die zu exportierende Region"
+      "selectinfo": "Rechteck um die zu exportierende Region aufziehen"
     },
     "redlining": {
       "border": "Rand",
@@ -253,9 +300,13 @@
     "share": {
       "QRCodeLinkTitle": "QR Code (Smartphone)",
       "directLinkTitle": "Über einen direkten Link",
-      "generatingpermalink": "Permalink wird erzeugt",
+      "refresh": "Permalink generieren",
       "showpin": "Pin anzeigen",
       "socialIntro": "In den sozialen Medien"
+    },
+    "snapping": {
+      "loading": "Einrastrungsgeometrien werden geladen...",
+      "snappingenabled": "Einrasten aktiviert"
     },
     "themelayerslist": {
       "addlayer": "Layer hinzufügen",
@@ -265,7 +316,7 @@
     "themeswitcher": {
       "addlayerstotheme": "Ebenen der Karte hinzufügen",
       "addtotheme": "Dem aktuellen Thema hinzufügen",
-      "confirmswitch": "Ebenen, die nicht Teil des Themas sind, werden entfernt werden. Fortsetzen?",
+      "confirmswitch": "Ebenen, die nicht Teil des Themas sind, werden entfernt. Fortsetzen?",
       "filter": "Filter",
       "match": {
         "abstract": "Zusammenfassung",
@@ -273,7 +324,32 @@
         "title": "Titel"
       },
       "openintab": "In Tab öffnen",
-      "restrictedthemeinfo": "Sie sind nicht Berechtigt oder sind nicht angemeldet"
+      "restrictedthemeinfo": "Sie sind nicht berechtigt oder sind nicht angemeldet"
+    },
+    "timemanager": {
+      "animationinterval": "Animationsintervall",
+      "markers": "Marker",
+      "notemporaldata": "Keine sichtbaren Ebenen in der Karte sind mit Zeitinformationen versehen.",
+      "play": "Abspielen",
+      "playrev": "Zurück abspielen",
+      "rewind": "Zurücksetzten",
+      "stepback": "Schritt zurück",
+      "stepfwd": "Schritt vorwärts",
+      "stepsize": "Schritt",
+      "stop": "Stoppen",
+      "title": "Zeitleiste",
+      "toggle": "Zeitsteuerung aktivieren",
+      "unit": {
+        "century": "Jahrhunderte",
+        "days": "Tage",
+        "decade": "Jahrzehnte",
+        "hours": "Stunden",
+        "milliseconds": "Millisekunden",
+        "minutes": "Minuten",
+        "months": "Monate",
+        "seconds": "Sekunden",
+        "years": "Jahre"
+      }
     },
     "tooltip": {
       "background": "Hintergrundkarte wechseln",

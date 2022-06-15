@@ -7,6 +7,7 @@
         "AttributeTable": "Tabella attributi",
         "DxfExport": "Esporta su DXF",
         "Editing": "Strumenti di modifica",
+        "FeatureForm": "Formulario oggetto",
         "Help": "Aiuto",
         "IdentifyRegion": "Identifica in un poligono",
         "LayerCatalog": "Catalogo livelli",
@@ -14,19 +15,34 @@
         "Login": "Accedi",
         "Logout": "Disconnetti",
         "Measure": "Misura",
+        "MeasureLineString": "Misura una linea",
+        "MeasurePolygon": "Misura un poligono",
         "Print": "Stampa",
         "RasterExport": "Esporta su immagine",
         "Redlining": "Strumenti di disegno",
         "Share": "Condividi",
         "ThemeSwitcher": "Temi",
         "Tools": "Strumenti",
-        "Bookmark": "Segnalibri"
+        "Bookmark": "Segnalibri",
+        "TimeManager": "Linea temporale"
       },
-      "filter": "Filtra menü...",
+      "filter": "Filtra menù...",
       "menulabel": "Mappa e strumenti"
     },
     "search": {
       "coordinates": "Coordinate",
+      "nominatim": {
+        "amenity": "Amenità",
+        "boundary": "Confine",
+        "building": "Costruzione",
+        "landuse": "Utilizzo terreno",
+        "leisure": "Svago",
+        "place": "Località",
+        "highway": "Autostrata",
+        "natural": "Natura",
+        "railway": "Ferrovia",
+        "tourism": "Turismo"
+      },
       "all": "Tutti",
       "enablelayer": "Attivare il livello",
       "existinglayer": "Il livello esiste già nella mappa",
@@ -40,27 +56,42 @@
       "themes": "Temi"
     },
     "attribtable": {
+      "addfeature": "Aggiungi oggetto",
       "commit": "Salva riga modificata",
+      "delete": "Elimina",
+      "deletefailed": "Impossibile eliminare uno o più oggetti",
+      "deletefeatures": "Elimina gli oggetti selezionati",
+      "deleting": "Eliminando...",
       "discard": "Ripristina riga modificata",
+      "formeditmode": "Apri il formulario per l'oggetto selezionato",
+      "geomnoadd": "Utilizzare il formulario per creare nuovi oggetti per questo livello",
       "layer": "Livello",
-      "loadfailed": "",
+      "loadfailed": "Errore nel caricamento dei dati",
       "loading": "Caricamento...",
-      "reload": "Ricarica dati",
+      "nodelete": "Non eliminare",
+      "nogeomnoform": "Il formulario non è disponibile per livelli senza geometria",
+      "pleasereload": "Premere 'Ricarica' per caricare la tabella attributi...",
+      "reload": "Ricarica",
       "selectlayer": "Seleziona livello...",
-      "title": "Tabella attributi"
+      "title": "Tabella attributi",
+      "zoomtoselection": "Zoomare sugli oggetti selezionati"
     },
     "bgswitcher": {
       "nobg": "Nessuno sfondo"
     },
     "bookmark": {
-      "add": "Aggiungi",
+      "add": "Crea segnalibro",
+      "addfailed": "Impossibile creare il segnalibro",
       "description": "Descrizione",
-      "manage": "Gestisci",
+      "lastUpdate": "Ultimo salvataggio",
+      "manage": "Gestisci segnalibri",
       "notloggedin": "È necessario aver effettuato l'accesso per utilizzare i segnalibri",
-      "open": "Apri",
-      "openintab": "Apri in nuova scheda",
-      "remove": "Rimuovi",
-      "update": "Aggiorna"
+      "open": "Apri nella finestra corrente",
+      "openTab": "Apri in una nuova finestra",
+      "remove": "Rimuovi segnalibro",
+      "removefailed": "Impossibile rimuovere il segnalibro",
+      "savefailed": "Impossibile aggiornare il segnalibro",
+      "update": "Aggiorna segnalibro"
     },
     "bottombar": {
       "mousepos_label": "Coordinate",
@@ -78,21 +109,33 @@
       "symbologyscale": "Scala per la simbologia"
     },
     "editing": {
+      "add": "Aggiungi",
+      "attrtable": "Tabella",
       "canceldelete": "Annulla",
+      "capturedpicture": "Foto catturata",
       "clearpicture": "Cancella",
       "commit": "Salva",
       "delete": "Elimina",
       "discard": "Annulla",
       "draw": "Disegna",
       "feature": "Oggetto",
+      "geomreadonly": "La geometria contiene valori Z non nulli ed è quindi di sola lettura.",
       "maximize": "Massimizza",
       "minimize": "Minimizza",
+      "nocompatpick": "Nessuna geometria compatibile",
       "noeditablelayers": "Nessun livello modificabile",
       "pick": "Seleziona",
+      "pickdrawfeature": "Copia geometria esistente",
       "reallydelete": "Elimina",
       "relationcommitfailed": "Alcune relazioni non sono state salvate, consultare i tooltip delle icone per i dettagli.",
       "select": "Seleziona...",
       "takepicture": "Foto"
+    },
+    "featureform": {
+      "feature": "Oggetto",
+      "noresults": "Nessun risultato",
+      "querying": "Caricando...",
+      "title": "Formulario oggetto"
     },
     "fileselector": {
       "placeholder": "Seleziona file..."
@@ -115,6 +158,7 @@
       "title": "Titolo"
     },
     "importlayer": {
+      "addfailed": "Impossibile aggiungere il livello",
       "addlayer": "Aggiungi livello",
       "connect": "Connetti",
       "filter": "Filtro",
@@ -180,6 +224,9 @@
       "bearingLabel": "Direzione",
       "lengthLabel": "Lunghezza",
       "pointLabel": "Posizione"
+    },
+    "navbar": {
+      "perpage": "per pagina"
     },
     "print": {
       "grid": "Griglia",
@@ -253,9 +300,13 @@
     "share": {
       "QRCodeLinkTitle": "Codice QR",
       "directLinkTitle": "Collegamento diretto",
-      "generatingpermalink": "Sto generando il permalink",
+      "refresh": "Genera permalink",
       "showpin": "Mostra pin",
       "socialIntro": "Social network"
+    },
+    "snapping": {
+      "loading": "Caricamento delle geometrie per snapping",
+      "snappingenabled": "Snapping attivo"
     },
     "themelayerslist": {
       "addlayer": "Aggiungi layer",
@@ -274,6 +325,31 @@
       },
       "openintab": "Apri in nuova scheda",
       "restrictedthemeinfo": "Non sei autorizzato a visualizzare il tema oppure non hai effettuato il login"
+    },
+    "timemanager": {
+      "animationinterval": "Intervallo animazione",
+      "markers": "Marker",
+      "notemporaldata": "Nessun layer con dimensioni temporali è attivo nella cartina.",
+      "play": "Anima",
+      "playrev": "Anima indietro",
+      "rewind": "Resetta animazione",
+      "stepback": "Passo indietro",
+      "stepfwd": "Passo avanti",
+      "stepsize": "Passo",
+      "stop": "Ferma animazione",
+      "title": "Linea temporale",
+      "toggle": "Abilità gesitone temporale",
+      "unit": {
+        "century": "secoli",
+        "days": "giorni",
+        "decade": "decenni",
+        "hours": "ore",
+        "milliseconds": "millisecondi",
+        "minutes": "minuti",
+        "months": "mesi",
+        "seconds": "secondi",
+        "years": "anni"
+      }
     },
     "tooltip": {
       "background": "Cambia sfondo",
