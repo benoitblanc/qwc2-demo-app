@@ -48,6 +48,7 @@
       "existinglayer": "Katman zaten haritada mevcut",
       "invisiblelayer": "Sonuç, görünmeyen bir katmanda bulunuyor.",
       "more": "Daha fazla...",
+      "noresults": "",
       "providerselection": "",
       "search": "Ara",
       "searchall": "Bir yer ara ya da harita ekle...",
@@ -112,24 +113,29 @@
       "add": "",
       "attrtable": "",
       "canceldelete": "Silme",
-      "capturedpicture": "",
       "clearpicture": "",
       "commit": "Onayla",
+      "commitfailed": "",
+      "create": "",
       "delete": "Sil",
       "discard": "İptal",
       "draw": "Çiz",
       "feature": "Obje",
       "geomreadonly": "",
+      "invalidform": "",
       "maximize": "Büyült",
       "minimize": "Küçült",
       "nocompatpick": "",
       "noeditablelayers": "Düzenlenebilir katman yok.",
+      "paint": "",
       "pick": "Seç",
       "pickdrawfeature": "",
       "reallydelete": "Sil",
       "relationcommitfailed": "",
       "select": "Seçim",
-      "takepicture": ""
+      "selectedpicture": "",
+      "takepicture": "",
+      "unsavedchanged": ""
     },
     "featureform": {
       "feature": "",
@@ -156,6 +162,10 @@
       "noresults": "Seçilen nokta için geçerli bilgi yok",
       "querying": "Sorgulanıyor...",
       "title": "Obje Bilgisi"
+    },
+    "imageeditor": {
+      "confirmclose": "",
+      "title": ""
     },
     "importlayer": {
       "addfailed": "",
@@ -198,6 +208,12 @@
       "transparency": "",
       "visiblefilter": "Görünmeyen katmanları filtrele",
       "zoomtolayer": "Katman sınırlarına yaklaş"
+    },
+    "linkfeatureform": {
+      "cancel": "",
+      "close": "",
+      "drawhint": "",
+      "pickhint": ""
     },
     "locate": {
       "feetUnit": "feet",
@@ -242,6 +258,9 @@
       "scale": "Ölçek:",
       "submit": "Yazdır",
       "wait": "Lütfen bekleyiniz..."
+    },
+    "qtdesignerform": {
+      "loading": ""
     },
     "rasterexport": {
       "format": "Format:",
@@ -301,6 +320,7 @@
       "QRCodeLinkTitle": "Karekod",
       "directLinkTitle": "Doğrudan bağlantı yolu ile",
       "refresh": "",
+      "shareTitle": "QWC2",
       "showpin": "",
       "socialIntro": "Favori sosyal ağınıza"
     },
@@ -366,8 +386,10 @@
       "close": "Kapat",
       "dock": "Sabitle",
       "maximize": "",
+      "minimize": "",
       "undock": "Çöz",
-      "unmaximize": ""
+      "unmaximize": "",
+      "unminimize": ""
     }
   }
 }

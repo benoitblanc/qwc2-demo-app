@@ -48,6 +48,7 @@
       "existinglayer": "Strat existent",
       "invisiblelayer": "Rezultatul este într-un strat invizibil",
       "more": "Mai multe...",
+      "noresults": "",
       "providerselection": "",
       "search": "Caută",
       "searchall": "Caută în toate",
@@ -112,24 +113,29 @@
       "add": "",
       "attrtable": "",
       "canceldelete": "Elimină modificările",
-      "capturedpicture": "",
       "clearpicture": "Elimină poza",
       "commit": "Salvează",
+      "commitfailed": "",
+      "create": "",
       "delete": "Șterge",
       "discard": "Renunță",
       "draw": "Adaugă",
       "feature": "Entitate",
       "geomreadonly": "",
+      "invalidform": "",
       "maximize": "Maximizează",
       "minimize": "Minimizează",
       "nocompatpick": "",
       "noeditablelayers": "Tema nu conține straturi ce se pot modifica",
+      "paint": "",
       "pick": "Alege",
       "pickdrawfeature": "",
       "reallydelete": "Șterge",
       "relationcommitfailed": "Salvarea relației a eșuat",
       "select": "Selectează",
-      "takepicture": "Fotografiază"
+      "selectedpicture": "",
+      "takepicture": "Fotografiază",
+      "unsavedchanged": ""
     },
     "featureform": {
       "feature": "",
@@ -156,6 +162,10 @@
       "noresults": "Nu există informații în punctul cerut",
       "querying": "Interogare...",
       "title": "Info Entități"
+    },
+    "imageeditor": {
+      "confirmclose": "",
+      "title": ""
     },
     "importlayer": {
       "addfailed": "",
@@ -198,6 +208,12 @@
       "transparency": "Transparență",
       "visiblefilter": "Filtrează straturile invizibile",
       "zoomtolayer": "Zoom la strat"
+    },
+    "linkfeatureform": {
+      "cancel": "",
+      "close": "",
+      "drawhint": "",
+      "pickhint": ""
     },
     "locate": {
       "feetUnit": "picioare",
@@ -242,6 +258,9 @@
       "scale": "Scară:",
       "submit": "Tipărește",
       "wait": "Așteaptă te rog.."
+    },
+    "qtdesignerform": {
+      "loading": ""
     },
     "rasterexport": {
       "format": "Format:",
@@ -301,6 +320,7 @@
       "QRCodeLinkTitle": "Cod QR",
       "directLinkTitle": "Via link direct",
       "refresh": "",
+      "shareTitle": "QWC2",
       "showpin": "Arată pin",
       "socialIntro": "În rețeaua socială favorită"
     },
@@ -366,8 +386,10 @@
       "close": "Închide",
       "dock": "Andocare",
       "maximize": "Maximizează",
+      "minimize": "",
       "undock": "Anulează andocarea",
-      "unmaximize": "Revenire"
+      "unmaximize": "Revenire",
+      "unminimize": ""
     }
   }
 }

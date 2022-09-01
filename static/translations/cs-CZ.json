@@ -48,6 +48,7 @@
       "existinglayer": "",
       "invisiblelayer": "",
       "more": "Více...",
+      "noresults": "",
       "providerselection": "",
       "search": "Hledat",
       "searchall": "Najít místo nebo přidat mapu...",
@@ -112,24 +113,29 @@
       "add": "",
       "attrtable": "",
       "canceldelete": "Neodstraňovat",
-      "capturedpicture": "",
       "clearpicture": "",
       "commit": "Potvrdit",
+      "commitfailed": "",
+      "create": "",
       "delete": "Odstranit",
       "discard": "Vyřadit",
       "draw": "Kreslit",
       "feature": "",
       "geomreadonly": "",
+      "invalidform": "",
       "maximize": "Maximální",
       "minimize": "Minimální",
       "nocompatpick": "",
       "noeditablelayers": "Needitovatelná vrstva.",
+      "paint": "",
       "pick": "Výběr",
       "pickdrawfeature": "",
       "reallydelete": "Odstranit",
       "relationcommitfailed": "",
       "select": "Vybrat",
-      "takepicture": ""
+      "selectedpicture": "",
+      "takepicture": "",
+      "unsavedchanged": ""
     },
     "featureform": {
       "feature": "",
@@ -156,6 +162,10 @@
       "noresults": "Pro vybraný bod nejsou k dispozici žádné informace",
       "querying": "Dotazování...",
       "title": "Informace o prvku"
+    },
+    "imageeditor": {
+      "confirmclose": "",
+      "title": ""
     },
     "importlayer": {
       "addfailed": "",
@@ -198,6 +208,12 @@
       "transparency": "",
       "visiblefilter": "",
       "zoomtolayer": ""
+    },
+    "linkfeatureform": {
+      "cancel": "",
+      "close": "",
+      "drawhint": "",
+      "pickhint": ""
     },
     "locate": {
       "feetUnit": "stopy",
@@ -242,6 +258,9 @@
       "scale": "Měřítko:",
       "submit": "Tisk",
       "wait": ""
+    },
+    "qtdesignerform": {
+      "loading": ""
     },
     "rasterexport": {
       "format": "Formát:",
@@ -301,6 +320,7 @@
       "QRCodeLinkTitle": "QR kód",
       "directLinkTitle": "Přes přímé spojení",
       "refresh": "",
+      "shareTitle": "QWC2",
       "showpin": "",
       "socialIntro": "Ve vaší oblíbené sociální síti"
     },
@@ -366,8 +386,10 @@
       "close": "",
       "dock": "",
       "maximize": "",
+      "minimize": "",
       "undock": "",
-      "unmaximize": ""
+      "unmaximize": "",
+      "unminimize": ""
     }
   }
 }
