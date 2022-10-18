@@ -189,7 +189,7 @@ Additionally, entries opening external URLs can be defined as follows:
 
 where
 
-* `Key: An arbitrary key name (not used by existing plugins), used to lookup the the label for the entry from the translations.
+* `Key`: An arbitrary key name (not used by existing plugins), used to lookup the label for the entry from the translations.
 * `icon`: As above.
 * `url`: The URL to open. Can contain as placeholders the keys listed in <a href="#url-parameters">URL parameters</a>, encolsed in `$` (i.e. `$e$` for the extent). In addition, the placeholders `$x$` and `$y$` for the individual map center coordinates are also supported.
 * `target`: The target where to open the URL, if empty, `_blank` is assumed. Can be `iframe` to open the link in a iframe window inside QWC2.
@@ -218,7 +218,7 @@ The first step is to prepare a QGIS project. Besides the common tasks of adding 
 | Initial visibility   | Layers Panel                              | Initial visibility of layers and groups.         |
 | Rendering order      | Layer Order Panel or Layers Panel         | Rendering order of the layers. If layer re-ordering is enabled in `config.json`, the order from the Layer Order Panel is ignored. |
 | Print layouts        | Layout manager                            | The print layouts offered in the Print plugin.   |
-| Print layout labels  | Layout manager                            | Print layout labels with an ID will be exposed in the Print plugin. |
+| Print layout labels  | Layout manager                            | Print layout labels with an ID will be exposed in the Print plugin. Note: a label ID starting with `__` will not be exposed. |
 
 #### <a name="themesConfig-json"></a>Configuring the themes in `themesConfig.json`
 
@@ -283,7 +283,7 @@ The format of the theme definitions is as follows:
 | `"printLabelForSearchResult": "<ID>",`        | Optional, an ID of a print layout label to which the current search result text (if any) will be written to when printing. |
 | `"printLabelForAttribution": "<ID>",`         | Optional, an ID of a print layout label to which the current attribution text (if any) will be written to when printing. |
 | `"printLabelConfig": {`                       | Optional, configuration of the text input fields for print layout labels.        |
-| `  "<LabelId>": {"rows": <n>, "maxLength": <n>},` | Height of the input field in rows and maximum number of allowed characters. |
+| `  "<LabelId>": {"rows": <n>, "maxLength": <n>},` | Height of the input field in rows and maximum number of allowed characters.  |
 | `},`                                          |                                                                                  |
 | `"mapCrs: "<EPSG code>",`                     | Optional, map projection, defaults to `EPSG:3857`.                               |
 | `"extent": [<xmin>, <ymin>, <xmax>, <ymax>],` | Optional, override theme extent. In `mapCrs`.                                    |
